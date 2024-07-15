@@ -1,0 +1,91 @@
+html {
+  > body {
+    margin: 0;
+    .container {
+      padding: 107px 208px;
+      background-color: #fae9e7;
+      .card {
+        display: flex;
+        position: relative;
+        > .content {
+          margin-left: 40px;
+          > .title {
+            font-family: "Baskervville";
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 40px;
+            color: #725a58;
+            margin-bottom: 24px;
+          }
+          > .price_time {
+            display: flex;
+            margin-bottom: 24px;
+            > .price,
+            .time {
+              display: flex;
+              align-items: center;
+              white-space: nowrap;
+              margin-right: 24px;
+              > .dollarIcon,
+              .timeIcon {
+                display: block;
+                margin-right: 4.5px;
+              }
+              > span {
+                font-family: "Avenir";
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 27px;
+                color: #191919;
+              }
+            }
+          }
+          > .subTitle {
+            font-family: "Baskervville";
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 31.2px;
+            color: #191919;
+            margin-bottom: 24px;
+          }
+          > .description {
+            font-family: "Avenir";
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 27px;
+            color: #191919;
+            margin-bottom: 24px;
+          }
+          > button {
+            // reset button styles
+            border-radius: 0;
+            text-align: inherit;
+            background: none;
+            box-shadow: none;
+            padding: 0;
+            cursor: pointer;
+            border: none;
+            color: inherit;
+            font: inherit;
+            // add custom styles
+            padding: 24px 32px;
+            font-family: Baskervville;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            border: solid #5e4a49 1px;
+          }
+        }
+        > .commentsIcon {
+          position: absolute;
+          top: 50px;
+          right: -210px;
+        }
+      }
+    }
+  }
+}
+
+p {
+  margin: 0;
+}

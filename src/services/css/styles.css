@@ -7,7 +7,13 @@ html > body .container {
 }
 html > body .container .card {
   display: flex;
+  justify-content: center;
   position: relative;
+}
+html > body .container .card > img {
+  width: 320px;
+  height: 380px;
+  object-fit: contain;
 }
 html > body .container .card > .content {
   margin-left: 40px;
@@ -62,7 +68,7 @@ html > body .container .card > .content > .description {
   color: #191919;
   margin-bottom: 24px;
 }
-html > body .container .card > .content > button {
+html > body .container .card > .content > .button {
   border-radius: 0;
   text-align: inherit;
   background: none;
@@ -85,6 +91,43 @@ html > body .container .card > .commentsIcon {
   right: -210px;
 }
 
+@media screen and (max-width: 740px) {
+  html {
+    width: 100%;
+  }
+  html > body > .container {
+    padding: 0;
+  }
+  html > body > .container > .card {
+    display: block;
+  }
+  html > body > .container > .card > .commentsIcon {
+    display: none;
+  }
+  html > body > .container > .card > img {
+    margin-bottom: 24px;
+    width: 100%;
+    object-fit: cover;
+  }
+  html > body > .container > .card > .content {
+    margin-left: 0;
+    padding: 0 19px;
+  }
+  html > body > .container > .card > .content > .title {
+    margin-bottom: 16px;
+  }
+  html > body > .container > .card > .content > .price_time {
+    display: block;
+  }
+  html > body > .container > .card > .content > .price_time > .price {
+    margin-bottom: 12px;
+  }
+  html > body > .container > .card > .content > .button {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+}
 p {
   margin: 0;
 }

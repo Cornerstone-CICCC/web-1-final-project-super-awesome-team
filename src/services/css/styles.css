@@ -2,13 +2,14 @@ html > body {
   margin: 0;
 }
 html > body .container {
-  padding: 107px 208px;
+  padding: 107px 208px 146px 208px;
   background-color: #fae9e7;
 }
 html > body .container .card {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-bottom: 38px;
 }
 html > body .container .card > img {
   width: 320px;
@@ -17,6 +18,7 @@ html > body .container .card > img {
 }
 html > body .container .card > .content {
   margin-left: 40px;
+  padding: 17px 0;
 }
 html > body .container .card > .content > .title {
   font-family: "Baskervville";
@@ -58,7 +60,6 @@ html > body .container .card > .content > .subTitle {
   font-size: 24px;
   line-height: 31.2px;
   color: #191919;
-  margin-bottom: 24px;
 }
 html > body .container .card > .content > .description {
   font-family: "Avenir";
@@ -82,7 +83,6 @@ html > body .container .card > .content > .button {
   font-family: Baskervville;
   font-size: 20px;
   font-weight: 400;
-  line-height: 30px;
   border: solid #5e4a49 1px;
 }
 html > body .container .card > .commentsIcon {
@@ -100,6 +100,8 @@ html > body .container .card > .commentsIcon {
   }
   html > body > .container > .card {
     display: block;
+    margin: 0;
+    padding-bottom: 34px;
   }
   html > body > .container > .card > .commentsIcon {
     display: none;

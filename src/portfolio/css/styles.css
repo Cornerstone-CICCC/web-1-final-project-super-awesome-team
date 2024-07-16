@@ -4,6 +4,7 @@ html > body {
 html > body .container {
   padding: 107px 198px 107px 205px;
   background-color: #fae9e7;
+  position: relative;
 }
 html > body .container > .tabs {
   display: flex;
@@ -44,6 +45,11 @@ html > body .container > .viewMoreBtn {
   margin: auto;
   margin-top: 57px;
 }
+html > body .container > .commentsIcon {
+  position: absolute;
+  top: 197px;
+  right: 0;
+}
 
 @media screen and (max-width: 1065px) {
   html {
@@ -67,6 +73,9 @@ html > body .container > .viewMoreBtn {
     justify-content: center;
   }
   html > body > .container > .images > .img:nth-child(n+5) {
+    display: none;
+  }
+  html > body > .container > .commentsIcon {
     display: none;
   }
 }

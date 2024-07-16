@@ -4,6 +4,7 @@ html {
     .container {
       padding: 107px 198px 107px 205px;
       background-color: #fae9e7;
+      position: relative;
       > .tabs {
         display: flex;
         justify-content: center;
@@ -44,6 +45,11 @@ html {
         margin: auto;
         margin-top: 57px;
       }
+      > .commentsIcon {
+        position: absolute;
+        top: 197px;
+        right: 0;
+      }
     }
   }
 }
@@ -73,6 +79,9 @@ html {
           > .img:nth-child(n + 5) {
             display: none;
           }
+        }
+        > .commentsIcon {
+          display: none;
         }
       }
     }

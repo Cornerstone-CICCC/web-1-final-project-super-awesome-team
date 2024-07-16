@@ -10,7 +10,8 @@ html > body .container > .tabs {
   justify-content: center;
   margin-bottom: 43px;
 }
-html > body .container > .tabs > .tab {
+html > body .container > .tabs > .makeup,
+html > body .container > .tabs .hairstyle {
   width: 242px;
   height: 53px;
   font-family: Baskervville;
@@ -21,7 +22,7 @@ html > body .container > .tabs > .tab {
   text-align: center;
   border-bottom: 1px solid #191919;
 }
-html > body .container > .tabs > .selected {
+html > body .container > .tabs > .hairstyle {
   opacity: 0.3;
 }
 html > body .container > .images {
@@ -45,6 +46,17 @@ html > body .container > .viewMoreBtn {
 }
 
 @media screen and (max-width: 1065px) {
+  html {
+    width: 100%;
+  }
+  html > body > .container {
+    padding: 61px 14px;
+  }
+  html > body > .container > .images {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 680px) {
   html {
     width: 100%;
   }

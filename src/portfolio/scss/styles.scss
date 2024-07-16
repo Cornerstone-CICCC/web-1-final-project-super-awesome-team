@@ -1,0 +1,106 @@
+html {
+  > body {
+    margin: 0;
+    .container {
+      padding: 107px 198px 107px 205px;
+      background-color: #fae9e7;
+      position: relative;
+      > .tabs {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 43px;
+        > .makeup,
+        .hairstyle {
+          // add custom styles
+          width: 242px;
+          height: 53px;
+          font-family: Baskervville;
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 41.6px;
+          color: #000000;
+          text-align: center;
+          border-bottom: 1px solid #191919;
+        }
+        > .hairstyle {
+          opacity: 0.3;
+        }
+      }
+      > .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        > .img {
+          margin-bottom: 16px;
+        }
+      }
+      > .viewMoreBtn {
+        padding: 24px 32px;
+        font-family: Baskervville;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        border: 1px solid #725a58;
+        display: block;
+        margin: auto;
+        margin-top: 57px;
+      }
+      > .commentsIcon {
+        position: absolute;
+        top: 197px;
+        right: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  html {
+    width: 100%;
+    > body {
+      > .container {
+        padding: 61px 14px;
+        > .images {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  html {
+    width: 100%;
+    > body {
+      > .container {
+        padding: 61px 14px;
+        > .images {
+          justify-content: center;
+          > .img:nth-child(n + 5) {
+            display: none;
+          }
+        }
+        > .commentsIcon {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  // reset button styles
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}

@@ -1,0 +1,135 @@
+html > body {
+  margin: 0;
+}
+html > body .container {
+  padding: 107px 208px;
+  background-color: #fae9e7;
+}
+html > body .container .card {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+html > body .container .card > img {
+  width: 320px;
+  height: 380px;
+  object-fit: contain;
+}
+html > body .container .card > .content {
+  margin-left: 40px;
+}
+html > body .container .card > .content > .title {
+  font-family: "Baskervville";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #725a58;
+  margin-bottom: 24px;
+}
+html > body .container .card > .content > .price_time {
+  display: flex;
+  margin-bottom: 24px;
+}
+html > body .container .card > .content > .price_time > .price,
+html > body .container .card > .content > .price_time .time {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  margin-right: 24px;
+}
+html > body .container .card > .content > .price_time > .price > .dollarIcon,
+html > body .container .card > .content > .price_time > .price .timeIcon,
+html > body .container .card > .content > .price_time .time > .dollarIcon,
+html > body .container .card > .content > .price_time .time .timeIcon {
+  display: block;
+  margin-right: 4.5px;
+}
+html > body .container .card > .content > .price_time > .price > span,
+html > body .container .card > .content > .price_time .time > span {
+  font-family: "Avenir";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #191919;
+}
+html > body .container .card > .content > .subTitle {
+  font-family: "Baskervville";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31.2px;
+  color: #191919;
+  margin-bottom: 24px;
+}
+html > body .container .card > .content > .description {
+  font-family: "Avenir";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #191919;
+  margin-bottom: 24px;
+}
+html > body .container .card > .content > .button {
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+  padding: 24px 32px;
+  font-family: Baskervville;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  border: solid #5e4a49 1px;
+}
+html > body .container .card > .commentsIcon {
+  position: absolute;
+  top: 50px;
+  right: -210px;
+}
+
+@media screen and (max-width: 740px) {
+  html {
+    width: 100%;
+  }
+  html > body > .container {
+    padding: 0;
+  }
+  html > body > .container > .card {
+    display: block;
+  }
+  html > body > .container > .card > .commentsIcon {
+    display: none;
+  }
+  html > body > .container > .card > img {
+    margin-bottom: 24px;
+    width: 100%;
+    object-fit: cover;
+  }
+  html > body > .container > .card > .content {
+    margin-left: 0;
+    padding: 0 19px;
+  }
+  html > body > .container > .card > .content > .title {
+    margin-bottom: 16px;
+  }
+  html > body > .container > .card > .content > .price_time {
+    display: block;
+  }
+  html > body > .container > .card > .content > .price_time > .price {
+    margin-bottom: 12px;
+  }
+  html > body > .container > .card > .content > .button {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -14,6 +14,9 @@ html > body > .container > .section1 > .section1_titleImage {
   display: block;
   margin-bottom: 26px;
 }
+html > body > .container > .section1 > .section1_titleImage_mobile {
+  display: none;
+}
 html > body > .container > .section1 > .section1_description {
   font-family: Avenir;
   font-size: 18px;
@@ -37,9 +40,32 @@ html > body > .container > .section1 > .section1_commentIcon {
   bottom: 52px;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 360px) {
   html {
     width: 100%;
+  }
+  html > body > .container > .section1 {
+    padding: 314.5px 32px 116.5px 33px;
+    background-position: center;
+  }
+  html > body > .container > .section1 > .section1_titleImage {
+    display: none;
+  }
+  html > body > .container > .section1 > .section1_titleImage_mobile {
+    display: block;
+  }
+  html > body > .container > .section1 > .section1_description {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+  }
+  html > body > .container > .section1 > .section1_button {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  html > body > .container > .section1 > .section1_commentIcon {
+    bottom: 0;
   }
 }
 p {

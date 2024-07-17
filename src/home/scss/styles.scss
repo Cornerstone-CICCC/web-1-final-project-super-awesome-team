@@ -2,6 +2,7 @@ html {
   > body {
     margin: 0;
     > .container {
+      background-color: #f8f6f4;
       > .section1 {
         background-image: url("/assets/home/top.png");
         padding: 267px 417px 101px 416px;
@@ -140,7 +141,7 @@ html {
             }
           }
 
-          > .brand-icons {
+          > .brand-icons_top {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -158,6 +159,11 @@ html {
                   brightness(91%) contrast(91%);
               }
             }
+          }
+          > .brand-icons_bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
           }
         }
       }

@@ -1,6 +1,9 @@
 html > body {
   margin: 0;
 }
+html > body > .container {
+  background-color: #f8f6f4;
+}
 html > body > .container > .section1 {
   background-image: url("/assets/home/top.png");
   padding: 267px 417px 101px 416px;
@@ -138,7 +141,7 @@ html > body > .container > .section2 > .section2_bottom > .section2_bottom_heade
   flex-grow: 1;
   height: 0.5px;
 }
-html > body > .container > .section2 > .section2_bottom > .brand-icons {
+html > body > .container > .section2 > .section2_bottom > .brand-icons_top {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -147,14 +150,19 @@ html > body > .container > .section2 > .section2_bottom > .brand-icons {
   margin: 0 auto;
   flex-wrap: wrap;
 }
-html > body > .container > .section2 > .section2_bottom > .brand-icons > .brand-icon {
+html > body > .container > .section2 > .section2_bottom > .brand-icons_top > .brand-icon {
   width: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-html > body > .container > .section2 > .section2_bottom > .brand-icons > .brand-icon img {
+html > body > .container > .section2 > .section2_bottom > .brand-icons_top > .brand-icon img {
   filter: invert(34%) sepia(0%) saturate(1487%) hue-rotate(136deg) brightness(91%) contrast(91%);
+}
+html > body > .container > .section2 > .section2_bottom > .brand-icons_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 360px) {

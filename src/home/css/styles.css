@@ -46,6 +46,7 @@ html > body > .container > .section2 {
 html > body > .container > .section2 > .section2_top {
   display: flex;
   width: fit-content;
+  margin-bottom: 40px;
 }
 html > body > .container > .section2 > .section2_top > .section2_top_card {
   width: 285px;
@@ -119,6 +120,41 @@ html > body > .container > .section2 > .section2_top > .section2_top_content > .
   color: #644f4e;
   border: solid 1px #644f4e;
   padding: 24px 35px;
+}
+html > body > .container > .section2 > .section2_bottom > .section2_bottom_header {
+  display: flex;
+  align-items: center;
+}
+html > body > .container > .section2 > .section2_bottom > .section2_bottom_header > h3 {
+  text-align: center;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #535353;
+  margin: 0 10px;
+}
+html > body > .container > .section2 > .section2_bottom > .section2_bottom_header > hr {
+  flex-grow: 1;
+  height: 0.5px;
+}
+html > body > .container > .section2 > .section2_bottom > .brand-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 904.5px;
+  height: 177px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+html > body > .container > .section2 > .section2_bottom > .brand-icons > .brand-icon {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html > body > .container > .section2 > .section2_bottom > .brand-icons > .brand-icon img {
+  filter: invert(34%) sepia(0%) saturate(1487%) hue-rotate(136deg) brightness(91%) contrast(91%);
 }
 
 @media screen and (max-width: 360px) {

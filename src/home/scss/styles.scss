@@ -1,0 +1,69 @@
+html {
+  > body {
+    margin: 0;
+    > .container {
+      > .section1 {
+        background-image: url("/assets/home/top.png");
+        padding: 267px 417px 101px 416px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        > .section1_titleImage {
+          margin: auto;
+          display: block;
+          margin-bottom: 26px;
+        }
+        > .section1_description {
+          font-family: Avenir;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 27px;
+          color: #ffffff;
+          margin-bottom: 24px;
+        }
+        > .section1_button {
+          font-family: Baskervville;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          color: #ffffff;
+          padding: 24px 32px;
+          border: solid 1px #ffffff;
+        }
+        > .section1_commentIcon {
+          position: absolute;
+          right: 0;
+          bottom: 52px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 740px) {
+  html {
+    width: 100%;
+    > body {
+      > .container {
+      }
+    }
+  }
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  // reset button styles
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}

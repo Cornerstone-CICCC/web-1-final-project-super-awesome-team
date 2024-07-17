@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body h1, body h2, body h3, body button {
+  color: #725A58;
+  font-weight: 400;
+  font-family: "Baskervville", serif;
+}
+body h3 {
+  line-height: 62.4px;
+  font-size: 48px;
+}
+body .title-section {
+  height: 218px;
+  gap: 32px;
+}
+body .title-section h1, body .title-section h3 {
+  text-align: center;
+  margin: 0;
+}
+body .title-section h3 {
+  color: #E3B6B1;
+}
+body .title-section h1 {
+  font-size: 80px;
+  color: #725A58;
+  font-weight: 400;
+  line-height: 104px;
+  letter-spacing: 0.13em;
+}
+body .about-section {
+  background-color: #FAE9E7;
+  padding: 108px 135px;
+}
+body .about-section .container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 40px;
+  width: 1170px;
+  height: 424px;
+  top: 108px;
+  left: 135px;
+}
+body .about-section .container > .about-image > img {
+  width: 351px;
+  height: 424px;
+}
+body .about-section .container > .about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+body .about-section .container > .about-text > h3 {
+  margin: 0;
+}
+body .about-section .container > .about-text button {
+  border: 0.8px solid #5E4A49;
+  width: 160px;
+  height: 62px;
+  background-color: transparent;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+body .brand h3 {
+  text-align: center;
+}
+body .brand .brand-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 904.5px;
+  height: 177px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+body .brand .brand-icons .brand-icon {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .brand .brand-icons .brand-icon img {
+  filter: invert(34%) sepia(0%) saturate(1487%) hue-rotate(136deg) brightness(91%) contrast(91%);
+}
+@media (max-width: 768px) {
+  body h1 {
+    font-size: 36px;
+  }
+  body h3 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  body .title-section {
+    height: auto;
+    margin: 40px 0;
+  }
+  body .title-section > h1 {
+    font-size: 33px;
+    line-height: 1;
+  }
+  body .title-section > h3 {
+    font-size: 36px;
+  }
+  body .about-section {
+    padding: 0;
+  }
+  body .about-section > .container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    height: auto;
+    gap: 0;
+  }
+  body .about-section > .container > .about-image {
+    width: 100%;
+  }
+  body .about-section > .container > .about-image > img {
+    width: 100%;
+    height: auto;
+  }
+  body .about-section > .container > .about-text {
+    gap: 0;
+    padding: 40px 15px;
+  }
+  body .about-section > .container > .about-text > p {
+    line-height: 25.6px;
+    margin-bottom: 26px;
+  }
+  body .about-section > .container > .about-text > .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  body .brand > .brand-icons {
+    width: 90vw;
+    height: auto;
+  }
+  body .brand > .brand-icons > .brand-icon {
+    width: 50%;
+    height: 100px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

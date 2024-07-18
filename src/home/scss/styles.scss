@@ -236,6 +236,74 @@ html {
       > .section3_mobile {
         display: none;
       }
+      > .section4 {
+        padding: 120px 143px;
+        text-align: center;
+        background-color: #f8f6f4;
+        > .section4_title {
+          font-family: "Baskervville SC", serif;
+          font-size: 80px;
+          font-weight: 400;
+          line-height: 104px;
+          letter-spacing: 0.13em;
+          text-align: center;
+          color: #725a58;
+        }
+        > .section4_line {
+          width: 200px;
+          border-top: 1px solid #e3b6b1;
+          margin-bottom: 32px;
+        }
+        > .section4_paragraph {
+          font-family: Avenir;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 27px;
+          text-align: center;
+          width: 437px;
+          margin: 0 auto 32px;
+        }
+        > .section4_button {
+          font-family: Baskervville;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          padding: 24px 38.5px;
+          border: solid 1px #5e4a49;
+          color: #5e4a49;
+          margin-bottom: 40px;
+        }
+        > .section4_images {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          > .section4_images_wrapper {
+            width: fit-content;
+            position: relative;
+            > .section4_images_paragraph_party,
+            .section4_images_paragraph_wedding,
+            .section4_images_paragraph_photoshoot {
+              position: absolute;
+              bottom: 38.45px;
+              font-family: Baskervville;
+              font-size: 65.28px;
+              font-weight: 400;
+              line-height: 65.28px;
+              color: #fae9e7;
+              &:first-letter {
+                color: #b99692;
+              }
+            }
+            > .section4_images_paragraph_party,
+            .section4_images_paragraph_photoshoot {
+              left: -40px;
+            }
+            > .section4_images_paragraph_wedding {
+              left: -60px;
+            }
+          }
+        }
+      }
     }
   }
 }

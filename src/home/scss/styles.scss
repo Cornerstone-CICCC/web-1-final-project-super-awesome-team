@@ -233,6 +233,9 @@ html {
           justify-content: space-between;
         }
       }
+      > .section3_mobile {
+        display: none;
+      }
     }
   }
 }
@@ -355,6 +358,75 @@ html {
               margin-bottom: 43px;
               opacity: 0.4;
             }
+          }
+        }
+        > .section3 {
+          display: none;
+        }
+        > .section3_mobile {
+          display: block;
+          background-color: #fae9e7;
+          padding: 40px 0 60px;
+          text-align: center;
+          > .section3_mobile_title {
+            font-family: "Baskervville SC", serif;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 48px;
+            letter-spacing: 0.13em;
+            color: #725a58;
+          }
+          > .section3_mobile_bottom_line_from_title {
+            width: 200px;
+            border-top: 1px solid #e3b6b1;
+            margin-bottom: 32px;
+          }
+          > .section3_mobile_paragraph {
+            font-family: Avenir;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 25.6px;
+            margin-bottom: 32px;
+          }
+          > .section3_mobile_button {
+            font-family: Baskervville;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 18px;
+            padding: 24px 42.5px;
+            border: solid 1px #5e4a49;
+            color: #5e4a49;
+            margin-bottom: 52px;
+          }
+          > .section3_images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            > .section3_images_image {
+              display: block;
+              margin-bottom: 15px;
+            }
+          }
+          > .section3_svg {
+            margin-top: 20px;
+            margin-bottom: 40px;
+          }
+          > .section3_mobile_paragraph_bottom {
+            font-family: Baskervville;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: center;
+            width: 328px;
+            margin: auto;
+            margin-bottom: 32px;
+          }
+          > .section3_mobile_cursor {
+            width: 189px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
           }
         }
       }

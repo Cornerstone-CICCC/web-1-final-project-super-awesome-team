@@ -1,9 +1,6 @@
 html > body {
   margin: 0;
 }
-html > body > .container {
-  background-color: #f8f6f4;
-}
 html > body > .container > .section1 {
   background-image: url("/assets/home/top.png");
   padding: 267px 417px 101px 416px;
@@ -45,6 +42,7 @@ html > body > .container > .section1 > .section1_commentIcon {
 html > body > .container > .section2 {
   padding: 93px 288px 73px;
   position: relative;
+  background-color: #f8f6f4;
 }
 html > body > .container > .section2 > .section2_top {
   display: flex;
@@ -164,6 +162,72 @@ html > body > .container > .section2 > .section2_bottom > .brand-icons_bottom {
   align-items: center;
   justify-content: space-evenly;
 }
+html > body > .container > .section2_mobile {
+  display: none;
+  text-align: center;
+}
+html > body > .container > .section3 {
+  background-color: #fae9e7;
+  text-align: center;
+  padding: 120px 0;
+}
+html > body > .container > .section3 > .section3_title {
+  font-family: "Baskervville SC", serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 104px;
+  letter-spacing: 0.13em;
+  color: #5e4a49;
+}
+html > body > .container > .section3 > .section3_bottom_line_from_title {
+  width: 200px;
+  border-top: 1px solid #e3b6b1;
+  margin-bottom: 32px;
+}
+html > body > .container > .section3 > .section3_paragraph {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  width: 437px;
+  margin: 0 auto 40px;
+}
+html > body > .container > .section3 > .section3_button {
+  font-family: Baskervville;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 38.5px;
+  border: solid 1px #5e4a49;
+  color: #5e4a49;
+  margin-bottom: 80px;
+}
+html > body > .container > .section3 > .section3_images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+html > body > .container > .section3 > .section3_images > .section3_images_image {
+  display: block;
+}
+html > body > .container > .section3 > .section3_svg {
+  margin-bottom: 40px;
+}
+html > body > .container > .section3 > .section3_paragraph_bottom {
+  font-family: Baskervville;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41.6px;
+  width: 778px;
+  margin: 0 auto 40px;
+}
+html > body > .container > .section3 > .section3_cursor {
+  width: 322px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 @media screen and (max-width: 360px) {
   html {
@@ -192,6 +256,98 @@ html > body > .container > .section2 > .section2_bottom > .brand-icons_bottom {
   html > body > .container > .section1 > .section1_commentIcon {
     bottom: 0;
   }
+  html > body > .container > .section2 {
+    display: none;
+  }
+  html > body > .container > .section2_mobile {
+    display: block;
+    padding: 40px 18.5px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_title {
+    font-family: Baskervville;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_paragraph {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+    text-align: center;
+    color: #535353;
+    margin-bottom: 32px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_image1 {
+    display: block;
+    margin: auto;
+    margin-bottom: 32px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_button {
+    font-family: Baskervville;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 20px 39.5px;
+    border: solid 1px #644f4e;
+    margin-bottom: 61.8px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_card {
+    margin-bottom: 44px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_card > .section2_mobile_card_image {
+    background-image: url("/assets/home/section2/image.png");
+    height: 321px;
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_card > .section2_mobile_card_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    border: solid 0.5px #888888;
+    background-color: white;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_card > .section2_mobile_card_content > .section2_top_card_content_left {
+    width: 117px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_card > .section2_mobile_card_content > .section2_top_card_content_left > p {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18.2px;
+    color: #535353;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_bottom_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_bottom_header > h3 {
+    text-align: center;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #535353;
+    margin: 0 10px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_bottom_header > hr {
+    flex-grow: 1;
+    height: 0.5px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_logos > .logo {
+    display: block;
+    margin-bottom: 43px;
+    opacity: 0.4;
+  }
 }
 p {
   margin: 0;
@@ -207,6 +363,15 @@ button {
   border: none;
   color: inherit;
   font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

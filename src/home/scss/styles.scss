@@ -2,7 +2,6 @@ html {
   > body {
     margin: 0;
     > .container {
-      background-color: #f8f6f4;
       > .section1 {
         background-image: url("/assets/home/top.png");
         padding: 267px 417px 101px 416px;
@@ -44,6 +43,7 @@ html {
       > .section2 {
         padding: 93px 288px 73px;
         position: relative;
+        background-color: #f8f6f4;
         > .section2_top {
           display: flex;
           width: fit-content;
@@ -167,6 +167,72 @@ html {
           }
         }
       }
+      > .section2_mobile {
+        display: none;
+        text-align: center;
+      }
+      > .section3 {
+        background-color: #fae9e7;
+        text-align: center;
+        padding: 120px 0;
+        > .section3_title {
+          font-family: "Baskervville SC", serif;
+          font-size: 80px;
+          font-weight: 400;
+          line-height: 104px;
+          letter-spacing: 0.13em;
+          color: #5e4a49;
+        }
+        > .section3_bottom_line_from_title {
+          width: 200px;
+          border-top: 1px solid #e3b6b1;
+          margin-bottom: 32px;
+        }
+        > .section3_paragraph {
+          font-family: Avenir;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 27px;
+          width: 437px;
+          margin: 0 auto 40px;
+        }
+        > .section3_button {
+          font-family: Baskervville;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          padding: 24px 38.5px;
+          border: solid 1px #5e4a49;
+          color: #5e4a49;
+          margin-bottom: 80px;
+        }
+        > .section3_images {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 80px;
+          > .section3_images_image {
+            display: block;
+          }
+        }
+        > .section3_svg {
+          margin-bottom: 40px;
+        }
+        > .section3_paragraph_bottom {
+          font-family: Baskervville;
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 41.6px;
+          width: 778px;
+          margin: 0 auto 40px;
+        }
+        > .section3_cursor {
+          width: 322px;
+          margin: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
     }
   }
 }
@@ -199,6 +265,98 @@ html {
             bottom: 0;
           }
         }
+        > .section2 {
+          display: none;
+        }
+        > .section2_mobile {
+          display: block;
+          padding: 40px 18.5px;
+          > .section2_mobile_title {
+            font-family: Baskervville;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 41.6px;
+          }
+          > .section2_mobile_paragraph {
+            font-family: Avenir;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 25.6px;
+            text-align: center;
+            color: #535353;
+            margin-bottom: 32px;
+          }
+          > .section2_mobile_image1 {
+            display: block;
+            margin: auto;
+            margin-bottom: 32px;
+          }
+          > .section2_mobile_button {
+            font-family: Baskervville;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 18px;
+            padding: 20px 39.5px;
+            border: solid 1px #644f4e;
+            margin-bottom: 61.8px;
+          }
+          > .section2_mobile_card {
+            margin-bottom: 44px;
+            > .section2_mobile_card_image {
+              background-image: url("/assets/home/section2/image.png");
+              height: 321px;
+              background-color: pink;
+              background-repeat: no-repeat;
+              background-position: bottom;
+            }
+            > .section2_mobile_card_content {
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+              padding: 20px 0;
+              border: solid 0.5px #888888;
+              background-color: white;
+              > .section2_top_card_content_left {
+                width: 117px;
+                > p {
+                  font-family: Avenir;
+                  font-size: 14px;
+                  font-weight: 300;
+                  line-height: 18.2px;
+                  color: #535353;
+                }
+              }
+            }
+          }
+          > .section2_mobile_bottom_header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            > h3 {
+              text-align: center;
+              font-family: Avenir;
+              font-size: 18px;
+              font-weight: 300;
+              line-height: 27px;
+              color: #535353;
+              margin: 0 10px;
+            }
+            > hr {
+              flex-grow: 1;
+              height: 0.5px;
+            }
+          }
+          > .section2_mobile_logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            > .logo {
+              display: block;
+              margin-bottom: 43px;
+              opacity: 0.4;
+            }
+          }
+        }
       }
     }
   }
@@ -219,4 +377,13 @@ button {
   border: none;
   color: inherit;
   font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }

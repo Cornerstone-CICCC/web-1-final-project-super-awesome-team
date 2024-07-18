@@ -304,6 +304,9 @@ html {
           }
         }
       }
+      > .section4_mobile {
+        display: none;
+      }
     }
   }
 }
@@ -495,6 +498,77 @@ html {
             display: flex;
             align-items: center;
             justify-content: space-between;
+          }
+        }
+        > .section4 {
+          display: none;
+        }
+        > .section4_mobile {
+          display: block;
+          background-color: #f8f6f4;
+          padding: 40px 0 67.68px;
+          text-align: center;
+          > .section4_mobile_title {
+            font-family: "Baskervville SC", serif;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 48px;
+            letter-spacing: 0.13em;
+            color: #725a58;
+          }
+          > .section4_mobile_line {
+            width: 200px;
+            border-top: 1px solid #e3b6b1;
+            margin-bottom: 24px;
+          }
+          > .section4_mobile_paragraph {
+            font-family: Avenir;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 25.6px;
+            text-align: center;
+            margin-bottom: 24px;
+          }
+          > .section4_mobile_button {
+            font-family: Baskervville;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 18px;
+            padding: 24px 38.5px;
+            border: solid 1px #5e4a49;
+            color: #5e4a49;
+            margin-bottom: 40px;
+          }
+          > .section4_images {
+            > .section4_images_wrapper {
+              position: relative;
+              width: fit-content;
+              display: inline-block;
+              margin-bottom: 32.33px;
+              &:last-child {
+                margin-bottom: 0;
+              }
+              > .section4_images_paragraph_party,
+              .section4_images_paragraph_wedding,
+              .section4_images_paragraph_photoshoot {
+                font-family: Baskervville;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 65px;
+                position: absolute;
+                bottom: 0;
+                color: white;
+              }
+              > .section4_images_paragraph_party {
+                right: 70.73px;
+              }
+              > .section4_images_paragraph_photoshoot {
+                right: 10.63px;
+              }
+              > .section4_images_paragraph_wedding {
+                right: 27.73px;
+              }
+            }
           }
         }
       }

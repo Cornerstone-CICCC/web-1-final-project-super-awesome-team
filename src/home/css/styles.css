@@ -369,7 +369,69 @@ html > body > .container > .section5 > .section5_container > .section5_container
 html > body > .container > .section5_mobile {
   display: none;
 }
-
+html > body > .container > .section6 {
+  margin: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  text-align: center;
+}
+html > body > .container > .section6 > .section6_title {
+  font-family: "Baskervville SC", serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 62.4px;
+  color: #725a58;
+}
+html > body > .container > .section6 > .section6_videos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+html > body > .container > .section6 > .section6_button {
+  font-family: Baskervville;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 38.5px;
+  border: solid 1px #5e4a49;
+  color: #5e4a49;
+}
+html > body > .container > .section6 .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+html > body > .container > .section6 .modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+html > body > .container > .section6 .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+html > body > .container > .section6 .close:hover,
+html > body > .container > .section6 .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+html > body > .container > .section6_mobile {
+  display: none;
+}
 @media screen and (max-width: 360px) {
   html {
     width: 100%;
@@ -704,6 +766,110 @@ html > body > .container > .section5_mobile {
     border: solid 1px white;
     top: 18.48px;
     left: 17px;
+  }
+  html > body > .container > .section6 {
+    display: none;
+  }
+  html > body > .container > .section6_mobile {
+    display: block;
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Slideshow container */
+  }
+  html > body > .container > .section6_mobile > .section6_mobile_title {
+    font-family: "Baskervville SC", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    color: #725a58;
+  }
+  html > body > .container > .section6_mobile > .section6_mobile_hr {
+    width: 200px;
+    border-top: 1px solid #e3b6b1;
+    margin-bottom: 32px;
+  }
+  html > body > .container > .section6_mobile .section6_mobile_videos {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  html > body > .container > .section6_mobile .section6_mobile_videos_wrapper {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  html > body > .container > .section6_mobile .section6_mobile_videos_nav {
+    position: absolute;
+    top: 50%;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  html > body > .container > .section6_mobile .section6_mobile_slider_container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  html > body > .container > .section6_mobile .section6_mobile_slider_container > .section6_mobile_slides {
+    display: none;
+  }
+  html > body > .container > .section6_mobile .section6_mobile_slider_container .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  html > body > .container > .section6_mobile .section6_mobile_slider_container > .prev {
+    left: 0;
+  }
+  html > body > .container > .section6_mobile .section6_mobile_slider_container > .next {
+    right: 0;
+  }
+  html > body > .container > .section6_mobile .section6_mobile_slider_container .prev,
+  html > body > .container > .section6_mobile .section6_mobile_slider_container .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    border-radius: 3px 0 0 3px;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  html > body > .container > .section6_mobile .section6_mobile_slider_container .prev:hover,
+  html > body > .container > .section6_mobile .section6_mobile_slider_container .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  html > body > .container .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  html > body > .container #videoFrame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 60%;
   }
 }
 p {

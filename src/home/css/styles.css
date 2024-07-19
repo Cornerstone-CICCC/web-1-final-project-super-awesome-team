@@ -1,0 +1,732 @@
+html > body {
+  margin: 0;
+}
+html > body > .container > .section1 {
+  background-image: url("/assets/home/top.png");
+  padding: 267px 417px 101px 416px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+html > body > .container > .section1 > .section1_titleImage {
+  margin: auto;
+  display: block;
+  margin-bottom: 26px;
+}
+html > body > .container > .section1 > .section1_titleImage_mobile {
+  display: none;
+}
+html > body > .container > .section1 > .section1_description {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+html > body > .container > .section1 > .section1_button {
+  font-family: Baskervville;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 24px 32px;
+  border: solid 1px #ffffff;
+}
+html > body > .container > .section1 > .section1_commentIcon {
+  position: absolute;
+  right: 0;
+  bottom: 52px;
+}
+html > body > .container > .section2 {
+  padding: 93px 288px 73px;
+  position: relative;
+  background-color: #f8f6f4;
+}
+html > body > .container > .section2 > .section2_top {
+  display: flex;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_card {
+  width: 285px;
+  position: relative;
+  margin-right: 80px;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_card > .section2_top_card_image {
+  background-image: url("/assets/home/section2/image.png");
+  height: 321px;
+  background-color: pink;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_card > .section2_top_card_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  border: solid 0.5px #888888;
+  background-color: white;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_card > .section2_top_card_content > .section2_top_card_content_left {
+  width: 117px;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_card > .section2_top_card_content > .section2_top_card_content_left > p {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18.2px;
+  color: #535353;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_card::before {
+  position: absolute;
+  content: "";
+  top: -20px;
+  right: -20px;
+  height: 398px;
+  width: 285px;
+  border: solid 1px #e3b6b1;
+  z-index: -1;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_content {
+  width: 499px;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_content > .section2_top_content_svg {
+  margin-bottom: 24px;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_content > .section2_top_content_title {
+  font-family: Baskervville;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 62.4px;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_content > .section2_top_content_description {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #535353;
+  margin-bottom: 24px;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_content > .section2_top_content_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+html > body > .container > .section2 > .section2_top > .section2_top_content > .section2_top_content_bottom > .section2_top_content_bottom_button {
+  font-family: Baskervville;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #644f4e;
+  border: solid 1px #644f4e;
+  padding: 24px 35px;
+}
+html > body > .container > .section2 > .section2_bottom > .section2_bottom_header {
+  display: flex;
+  align-items: center;
+}
+html > body > .container > .section2 > .section2_bottom > .section2_bottom_header > h3 {
+  text-align: center;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #535353;
+  margin: 0 10px;
+}
+html > body > .container > .section2 > .section2_bottom > .section2_bottom_header > hr {
+  flex-grow: 1;
+  height: 0.5px;
+}
+html > body > .container > .section2 > .section2_bottom > .brand-icons_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 904.5px;
+  height: 177px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+html > body > .container > .section2 > .section2_bottom > .brand-icons_top > .brand-icon {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html > body > .container > .section2 > .section2_bottom > .brand-icons_top > .brand-icon img {
+  filter: invert(34%) sepia(0%) saturate(1487%) hue-rotate(136deg) brightness(91%) contrast(91%);
+}
+html > body > .container > .section2 > .section2_bottom > .brand-icons_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+html > body > .container > .section2_mobile {
+  display: none;
+  text-align: center;
+}
+html > body > .container > .section3 {
+  background-color: #fae9e7;
+  text-align: center;
+  padding: 120px 0;
+}
+html > body > .container > .section3 > .section3_title {
+  font-family: "Baskervville SC", serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 104px;
+  letter-spacing: 0.13em;
+  color: #5e4a49;
+}
+html > body > .container > .section3 > .section3_bottom_line_from_title {
+  width: 200px;
+  border-top: 1px solid #e3b6b1;
+  margin-bottom: 32px;
+}
+html > body > .container > .section3 > .section3_paragraph {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  width: 437px;
+  margin: 0 auto 40px;
+}
+html > body > .container > .section3 > .section3_button {
+  font-family: Baskervville;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 38.5px;
+  border: solid 1px #5e4a49;
+  color: #5e4a49;
+  margin-bottom: 80px;
+}
+html > body > .container > .section3 > .section3_images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+html > body > .container > .section3 > .section3_images > .section3_images_image {
+  display: block;
+}
+html > body > .container > .section3 > .section3_svg {
+  margin-bottom: 40px;
+}
+html > body > .container > .section3 > .section3_paragraph_bottom {
+  font-family: Baskervville;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41.6px;
+  width: 778px;
+  margin: 0 auto 40px;
+}
+html > body > .container > .section3 > .section3_cursor {
+  width: 322px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+html > body > .container > .section3_mobile {
+  display: none;
+}
+html > body > .container > .section4 {
+  padding: 120px 143px;
+  text-align: center;
+  background-color: #f8f6f4;
+}
+html > body > .container > .section4 > .section4_title {
+  font-family: "Baskervville SC", serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 104px;
+  letter-spacing: 0.13em;
+  text-align: center;
+  color: #725a58;
+}
+html > body > .container > .section4 > .section4_line {
+  width: 200px;
+  border-top: 1px solid #e3b6b1;
+  margin-bottom: 32px;
+}
+html > body > .container > .section4 > .section4_paragraph {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  width: 437px;
+  margin: 0 auto 32px;
+}
+html > body > .container > .section4 > .section4_button {
+  font-family: Baskervville;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 38.5px;
+  border: solid 1px #5e4a49;
+  color: #5e4a49;
+  margin-bottom: 40px;
+}
+html > body > .container > .section4 > .section4_images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html > body > .container > .section4 > .section4_images > .section4_images_wrapper {
+  width: fit-content;
+  position: relative;
+}
+html > body > .container > .section4 > .section4_images > .section4_images_wrapper > .section4_images_paragraph_party,
+html > body > .container > .section4 > .section4_images > .section4_images_wrapper .section4_images_paragraph_wedding,
+html > body > .container > .section4 > .section4_images > .section4_images_wrapper .section4_images_paragraph_photoshoot {
+  position: absolute;
+  bottom: 38.45px;
+  font-family: Baskervville;
+  font-size: 65.28px;
+  font-weight: 400;
+  line-height: 65.28px;
+  color: #fae9e7;
+}
+html > body > .container > .section4 > .section4_images > .section4_images_wrapper > .section4_images_paragraph_party:first-letter,
+html > body > .container > .section4 > .section4_images > .section4_images_wrapper .section4_images_paragraph_wedding:first-letter,
+html > body > .container > .section4 > .section4_images > .section4_images_wrapper .section4_images_paragraph_photoshoot:first-letter {
+  color: #b99692;
+}
+html > body > .container > .section4 > .section4_images > .section4_images_wrapper > .section4_images_paragraph_party,
+html > body > .container > .section4 > .section4_images > .section4_images_wrapper .section4_images_paragraph_photoshoot {
+  left: -40px;
+}
+html > body > .container > .section4 > .section4_images > .section4_images_wrapper > .section4_images_paragraph_wedding {
+  left: -60px;
+}
+html > body > .container > .section4_mobile {
+  display: none;
+}
+html > body > .container > .section5 {
+  padding: 0 68px;
+}
+html > body > .container > .section5 > .section5_container {
+  padding: 55.27px 116px 48.73px;
+  background-color: #fae9e7;
+  text-align: center;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_title {
+  font-family: "Baskervville SC", serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 104px;
+  letter-spacing: 0.13em;
+  color: #725a58;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content {
+  display: flex;
+  justify-content: space-between;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-left: 24px;
+  justify-content: space-between;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0 16px;
+  margin-bottom: 24px;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_section > .section5_container_content_left_section_text > .section5_container_content_left_section_text_heading {
+  display: flex;
+  margin-bottom: 12px;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_section > .section5_container_content_left_section_text > .section5_container_content_left_section_text_heading > .section5_container_content_left_section_text_heading_icon {
+  margin-right: 16.65px;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_section > .section5_container_content_left_section_text > .section5_container_content_left_section_text_paragraph {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: left;
+  width: 420px;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_section > .section5_container_content_left_section_svg {
+  margin-left: 78px;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_button {
+  font-family: Baskervville;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 33px;
+  border: solid 1px #5e4a49;
+  color: #5e4a49;
+  background-color: #fae9e7;
+}
+html > body > .container > .section5_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 360px) {
+  html {
+    width: 100%;
+  }
+  html > body > .container > .section1 {
+    padding: 314.5px 32px 116.5px 33px;
+    background-position: center;
+  }
+  html > body > .container > .section1 > .section1_titleImage {
+    display: none;
+  }
+  html > body > .container > .section1 > .section1_titleImage_mobile {
+    display: block;
+  }
+  html > body > .container > .section1 > .section1_description {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+  }
+  html > body > .container > .section1 > .section1_button {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  html > body > .container > .section1 > .section1_commentIcon {
+    bottom: 0;
+  }
+  html > body > .container > .section2 {
+    display: none;
+  }
+  html > body > .container > .section2_mobile {
+    display: block;
+    padding: 40px 18.5px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_title {
+    font-family: Baskervville;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_paragraph {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+    text-align: center;
+    color: #535353;
+    margin-bottom: 32px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_image1 {
+    display: block;
+    margin: auto;
+    margin-bottom: 32px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_button {
+    font-family: Baskervville;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 20px 39.5px;
+    border: solid 1px #644f4e;
+    margin-bottom: 61.8px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_card {
+    margin-bottom: 44px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_card > .section2_mobile_card_image {
+    background-image: url("/assets/home/section2/image.png");
+    height: 321px;
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_card > .section2_mobile_card_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    border: solid 0.5px #888888;
+    background-color: white;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_card > .section2_mobile_card_content > .section2_top_card_content_left {
+    width: 117px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_card > .section2_mobile_card_content > .section2_top_card_content_left > p {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18.2px;
+    color: #535353;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_bottom_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_bottom_header > h3 {
+    text-align: center;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #535353;
+    margin: 0 10px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_bottom_header > hr {
+    flex-grow: 1;
+    height: 0.5px;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  html > body > .container > .section2_mobile > .section2_mobile_logos > .logo {
+    display: block;
+    margin-bottom: 43px;
+    opacity: 0.4;
+  }
+  html > body > .container > .section3 {
+    display: none;
+  }
+  html > body > .container > .section3_mobile {
+    display: block;
+    background-color: #fae9e7;
+    padding: 40px 0 60px;
+    text-align: center;
+  }
+  html > body > .container > .section3_mobile > .section3_mobile_title {
+    font-family: "Baskervville SC", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.13em;
+    color: #725a58;
+  }
+  html > body > .container > .section3_mobile > .section3_mobile_bottom_line_from_title {
+    width: 200px;
+    border-top: 1px solid #e3b6b1;
+    margin-bottom: 32px;
+  }
+  html > body > .container > .section3_mobile > .section3_mobile_paragraph {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+    margin-bottom: 32px;
+  }
+  html > body > .container > .section3_mobile > .section3_mobile_button {
+    font-family: Baskervville;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 24px 42.5px;
+    border: solid 1px #5e4a49;
+    color: #5e4a49;
+    margin-bottom: 52px;
+  }
+  html > body > .container > .section3_mobile > .section3_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  html > body > .container > .section3_mobile > .section3_images > .section3_images_image {
+    display: block;
+    margin-bottom: 15px;
+  }
+  html > body > .container > .section3_mobile > .section3_svg {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  html > body > .container > .section3_mobile > .section3_mobile_paragraph_bottom {
+    font-family: Baskervville;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 328px;
+    margin: auto;
+    margin-bottom: 32px;
+  }
+  html > body > .container > .section3_mobile > .section3_mobile_cursor {
+    width: 189px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  html > body > .container > .section4 {
+    display: none;
+  }
+  html > body > .container > .section4_mobile {
+    display: block;
+    background-color: #f8f6f4;
+    padding: 40px 0 67.68px;
+    text-align: center;
+  }
+  html > body > .container > .section4_mobile > .section4_mobile_title {
+    font-family: "Baskervville SC", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.13em;
+    color: #725a58;
+  }
+  html > body > .container > .section4_mobile > .section4_mobile_line {
+    width: 200px;
+    border-top: 1px solid #e3b6b1;
+    margin-bottom: 24px;
+  }
+  html > body > .container > .section4_mobile > .section4_mobile_paragraph {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  html > body > .container > .section4_mobile > .section4_mobile_button {
+    font-family: Baskervville;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 24px 38.5px;
+    border: solid 1px #5e4a49;
+    color: #5e4a49;
+    margin-bottom: 40px;
+  }
+  html > body > .container > .section4_mobile > .section4_images > .section4_images_wrapper {
+    position: relative;
+    width: fit-content;
+    display: inline-block;
+    margin-bottom: 32.33px;
+  }
+  html > body > .container > .section4_mobile > .section4_images > .section4_images_wrapper:last-child {
+    margin-bottom: 0;
+  }
+  html > body > .container > .section4_mobile > .section4_images > .section4_images_wrapper > .section4_images_paragraph_party,
+  html > body > .container > .section4_mobile > .section4_images > .section4_images_wrapper .section4_images_paragraph_wedding,
+  html > body > .container > .section4_mobile > .section4_images > .section4_images_wrapper .section4_images_paragraph_photoshoot {
+    font-family: Baskervville;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 65px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+  }
+  html > body > .container > .section4_mobile > .section4_images > .section4_images_wrapper > .section4_images_paragraph_party {
+    right: 70.73px;
+  }
+  html > body > .container > .section4_mobile > .section4_images > .section4_images_wrapper > .section4_images_paragraph_photoshoot {
+    right: 10.63px;
+  }
+  html > body > .container > .section4_mobile > .section4_images > .section4_images_wrapper > .section4_images_paragraph_wedding {
+    right: 27.73px;
+  }
+  html > body > .container > .section5 {
+    display: none;
+  }
+  html > body > .container > .section5_mobile {
+    display: block;
+    background-color: #fae9e7;
+    padding-top: 32px;
+    text-align: center;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_title {
+    font-family: Baskervville;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.13em;
+    color: #725a58;
+    margin-bottom: 40px;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_icon1,
+  html > body > .container > .section5_mobile .section5_mobile_icon2 {
+    display: block;
+    margin: auto;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_icon1 {
+    margin-bottom: 17.46px;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_icon2 {
+    margin-bottom: 15px;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_paragraph {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_button {
+    display: flex;
+    margin: auto;
+    font-family: Baskervville;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #5e4a49;
+    margin-bottom: 60px;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_button:last-child {
+    margin-bottom: 40px;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_button > .section5_mobile_button_svg {
+    margin-left: 16px;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_bottom_button {
+    font-family: Baskervville;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 20px 113.5px;
+    border: solid 1px #5e4a49;
+    color: #5e4a49;
+    background-color: #fae9e7;
+    margin-bottom: 32px;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_image {
+    background-image: url("/assets/home/section5/mobile/image1.png");
+    width: 360px;
+    height: 468.8px;
+    position: relative;
+  }
+  html > body > .container > .section5_mobile > .section5_mobile_image > .section5_mobile_image_ui {
+    position: absolute;
+    width: 326px;
+    height: 431px;
+    border: solid 1px white;
+    top: 18.48px;
+    left: 17px;
+  }
+  p {
+    margin: 0;
+  }
+  button {
+    border-radius: 0;
+    text-align: inherit;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    color: inherit;
+    font: inherit;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

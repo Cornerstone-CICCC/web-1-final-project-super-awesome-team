@@ -374,6 +374,72 @@ html {
       > .section5_mobile {
         display: none;
       }
+      > .section6 {
+        margin: 80px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        text-align: center;
+        > .section6_title {
+          font-family: "Baskervville SC", serif;
+          font-size: 48px;
+          font-weight: 400;
+          line-height: 62.4px;
+          color: #725a58;
+        }
+        > .section6_videos {
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+        }
+        > .section6_button {
+          font-family: Baskervville;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          padding: 24px 38.5px;
+          border: solid 1px #5e4a49;
+          color: #5e4a49;
+        }
+        .modal {
+          display: none;
+          position: fixed;
+          z-index: 1;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          overflow: auto;
+          background-color: rgb(0, 0, 0);
+          background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+          background-color: #fefefe;
+          margin: 15% auto;
+          padding: 20px;
+          border: 1px solid #888;
+          width: 80%;
+        }
+
+        .close {
+          color: #aaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+          color: black;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+      > .section6_mobile {
+        display: none;
+      }
     }
   }
 }
@@ -715,6 +781,119 @@ html {
               left: 17px;
             }
           }
+        }
+        > .section6 {
+          display: none;
+        }
+        > .section6_mobile {
+          display: block;
+          margin: 80px 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          > .section6_mobile_title {
+            font-family: "Baskervville SC", serif;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 41.6px;
+            color: #725a58;
+          }
+          > .section6_mobile_hr {
+            width: 200px;
+            border-top: 1px solid #e3b6b1;
+            margin-bottom: 32px;
+          }
+          .section6_mobile_videos {
+            display: flex;
+            overflow: hidden;
+            position: relative;
+          }
+
+          .section6_mobile_videos_wrapper {
+            min-width: 100%;
+            transition: transform 0.5s ease-in-out;
+          }
+
+          .section6_mobile_videos_nav {
+            position: absolute;
+            top: 50%;
+            width: 360px;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+          }
+
+          /* Slideshow container */
+          .section6_mobile_slider_container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+
+            > .section6_mobile_slides {
+              display: none;
+            }
+
+            .fade {
+              animation-name: fade;
+              animation-duration: 1.5s;
+            }
+
+            @keyframes fade {
+              from {
+                opacity: 0.4;
+              }
+              to {
+                opacity: 1;
+              }
+            }
+
+            > .prev {
+              left: 0;
+            }
+            > .next {
+              right: 0;
+            }
+
+            .prev,
+            .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              border-radius: 3px 0 0 3px;
+              margin-top: -22px;
+              padding: 16px;
+              color: white;
+              font-weight: bold;
+              font-size: 18px;
+              transition: 0.6s ease;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+
+              &:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+              }
+            }
+          }
+        }
+
+        .modal {
+          display: none;
+          position: fixed;
+          z-index: 1;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+        }
+        #videoFrame {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 70%;
+          height: 60%;
         }
       }
     }

@@ -705,28 +705,30 @@ html > body > .container > .section5_mobile {
     top: 18.48px;
     left: 17px;
   }
-  p {
-    margin: 0;
-  }
-  button {
-    border-radius: 0;
-    text-align: inherit;
-    background: none;
-    box-shadow: none;
-    padding: 0;
-    cursor: pointer;
-    border: none;
-    color: inherit;
-    font: inherit;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
+}
+p {
+  margin: 0;
+}
+
+button {
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

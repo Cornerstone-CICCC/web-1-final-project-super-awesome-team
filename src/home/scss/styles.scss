@@ -365,10 +365,14 @@ html {
                 padding: 24px 33px;
                 border: solid 1px #5e4a49;
                 color: #5e4a49;
+                background-color: #fae9e7;
               }
             }
           }
         }
+      }
+      > .section5_mobile {
+        display: none;
       }
     }
   }
@@ -634,33 +638,111 @@ html {
             }
           }
         }
+        > .section5 {
+          display: none;
+        }
+        > .section5_mobile {
+          display: block;
+          background-color: #fae9e7;
+          padding-top: 32px;
+          text-align: center;
+          > .section5_mobile_title {
+            font-family: Baskervville;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 48px;
+            letter-spacing: 0.13em;
+            color: #725a58;
+            margin-bottom: 40px;
+          }
+          > .section5_mobile_icon1,
+          .section5_mobile_icon2 {
+            display: block;
+            margin: auto;
+          }
+          > .section5_mobile_icon1 {
+            margin-bottom: 17.46px;
+          }
+          > .section5_mobile_icon2 {
+            margin-bottom: 15px;
+          }
+          > .section5_mobile_paragraph {
+            font-family: Avenir;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 25.6px;
+            text-align: center;
+            margin-bottom: 16px;
+          }
+          > .section5_mobile_button {
+            display: flex;
+            margin: auto;
+            font-family: Baskervville;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #5e4a49;
+            margin-bottom: 60px;
+            &:last-child {
+              margin-bottom: 40px;
+            }
+            > .section5_mobile_button_svg {
+              margin-left: 16px;
+            }
+          }
+          > .section5_mobile_bottom_button {
+            font-family: Baskervville;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 18px;
+            padding: 20px 113.5px;
+            border: solid 1px #5e4a49;
+            color: #5e4a49;
+            background-color: #fae9e7;
+            margin-bottom: 32px;
+          }
+          > .section5_mobile_image {
+            background-image: url("/assets/home/section5/mobile/image1.png");
+            width: 360px;
+            height: 468.8px;
+            position: relative;
+            > .section5_mobile_image_ui {
+              position: absolute;
+              width: 326px;
+              height: 431px;
+              border: solid 1px white;
+              top: 18.48px;
+              left: 17px;
+            }
+          }
+        }
       }
     }
   }
-}
 
-p {
-  margin: 0;
-}
+  p {
+    margin: 0;
+  }
 
-button {
-  // reset button styles
-  border-radius: 0;
-  text-align: inherit;
-  background: none;
-  box-shadow: none;
-  padding: 0;
-  cursor: pointer;
-  border: none;
-  color: inherit;
-  font: inherit;
-}
+  button {
+    // reset button styles
+    border-radius: 0;
+    text-align: inherit;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    color: inherit;
+    font: inherit;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
 }

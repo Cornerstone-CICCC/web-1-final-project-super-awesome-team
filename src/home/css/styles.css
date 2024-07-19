@@ -432,7 +432,6 @@ html > body > .container > .section6 .close:focus {
 html > body > .container > .section6_mobile {
   display: none;
 }
-
 @media screen and (max-width: 360px) {
   html {
     width: 100%;

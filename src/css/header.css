@@ -1,0 +1,174 @@
+@charset "UTF-8";
+body > header > nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body > header > nav > .sp-nav {
+  margin-top: 20px;
+}
+body > header > nav > .nav-container {
+  width: 1440px;
+  padding: 32px 0px 32px 0px;
+  gap: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body > header > nav > .nav-container .nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 460px;
+}
+body > header > nav > .nav-container .nav-item {
+  position: relative;
+}
+body > header > nav > .nav-container .nav-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 1px;
+  background-color: #e3b6b1;
+}
+body > header > nav > .nav-container .nav-item a {
+  font-family: "Baskervville", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #725a58;
+  text-decoration: none;
+}
+body > header > nav > .nav-container .nav-item.activated > a {
+  border-bottom: 1px solid #725a58;
+}
+body > header > nav > .nav-container .icon {
+  display: flex;
+}
+body > header > nav > .nav-container .icon > a {
+  display: flex;
+}
+body > header > nav > .nav-container > .logo {
+  width: 128px;
+}
+@media screen and (max-width: 1024px) {
+  body > header > nav .pc-nav {
+    display: none;
+  }
+  body > header > nav .menu-btn {
+    position: absolute;
+    top: 48px;
+    left: 20px;
+    display: flex;
+    height: 31.88px;
+    width: 31.88px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+  }
+  body > header > nav .menu-btn span, body > header > nav .menu-btn span:before, body > header > nav .menu-btn span:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #725a58;
+    position: absolute;
+  }
+  body > header > nav .menu-btn span:before {
+    bottom: 8px;
+  }
+  body > header > nav .menu-btn span:after {
+    top: 8px;
+  }
+  body > header > nav #menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0); /*メニューオープン時は真ん中の線を透明にする*/
+  }
+  body > header > nav #menu-btn-check {
+    display: none;
+  }
+  body > header > nav #menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  body > header > nav #menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  body > header > nav #menu-btn-check:checked ~ .sp-menu-content {
+    right: 0;
+  }
+  body > header > nav .sp-logo-area {
+    width: 100vh;
+  }
+  body > header > nav .sp-logo {
+    text-align: center;
+  }
+  body > header > nav .sp-logo > img {
+    width: 95.6px;
+  }
+  body > header > nav .sp-icon {
+    position: absolute;
+    top: 48px;
+    right: 30px;
+  }
+  body > header > nav .sp-icon > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body > header > nav .sp-icon > a > img {
+    width: 31.88px;
+    height: 31.88px;
+  }
+  body > header > nav .sp-menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 100%;
+    z-index: 80;
+    background-color: #e3b6b1;
+    transition: all 0.3s;
+  }
+  body > header > nav .sp-menu-content ul {
+    padding: 70px 10px 0;
+  }
+  body > header > nav .sp-menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+  }
+  body > header > nav .sp-menu-content ul li a {
+    font-family: "Baskervville", serif;
+    display: block;
+    width: 100%;
+    font-size: 28px;
+    text-decoration: none;
+    color: #725a58;
+  }
+  body > header > nav .sp-menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  body > header > nav .sp-nav {
+    display: none;
+  }
+  body > header > nav .pc-menu {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

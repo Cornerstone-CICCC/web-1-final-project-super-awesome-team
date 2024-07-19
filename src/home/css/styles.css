@@ -304,6 +304,67 @@ html > body > .container > .section4 > .section4_images > .section4_images_wrapp
 html > body > .container > .section4_mobile {
   display: none;
 }
+html > body > .container > .section5 {
+  padding: 0 68px;
+}
+html > body > .container > .section5 > .section5_container {
+  padding: 55.27px 116px 48.73px;
+  background-color: #fae9e7;
+  text-align: center;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_title {
+  font-family: "Baskervville SC", serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 104px;
+  letter-spacing: 0.13em;
+  color: #725a58;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content {
+  display: flex;
+  justify-content: space-between;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-left: 24px;
+  justify-content: space-between;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0 16px;
+  margin-bottom: 24px;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_section > .section5_container_content_left_section_text > .section5_container_content_left_section_text_heading {
+  display: flex;
+  margin-bottom: 12px;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_section > .section5_container_content_left_section_text > .section5_container_content_left_section_text_heading > .section5_container_content_left_section_text_heading_icon {
+  margin-right: 16.65px;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_section > .section5_container_content_left_section_text > .section5_container_content_left_section_text_paragraph {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: left;
+  width: 420px;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_section > .section5_container_content_left_section_svg {
+  margin-left: 78px;
+}
+html > body > .container > .section5 > .section5_container > .section5_container_content > .section5_container_content_left > .section5_container_content_left_button {
+  font-family: Baskervville;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 33px;
+  border: solid 1px #5e4a49;
+  color: #5e4a49;
+}
 
 @media screen and (max-width: 360px) {
   html {

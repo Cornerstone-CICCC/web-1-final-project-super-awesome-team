@@ -1,9 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./contact_styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+  <header> </header>
+
+  <main>
+    <section class="title">
+      <div class="title_n_paragraph">
+        <h1>CONTACT</h1>
+        <p>Get a quote and book a free consultation for your special day or our academy services</p>
+      </div>
+      <div class="contact">
+        <div class="contact_container">
+          <div class="icon icon_phone">
+            <img src="../../assets/contact/phone.svg" alt="phone">
+            <p>+1 00000000</p>
+          </div>
+          <div class="icon icon_whatsapp">
+            <img src="../../assets/contact/whatsapp.svg" alt="whatsapp">
+            <p>+1 00000000</p>
+          </div>
+          <div class="icon icon_instagram">
+            <img src="../../assets/contact/instagram.svg" alt="instagram">
+            <p>carlabeatrizs_</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+
+      <div class="tab">
+        <button  id="defaultOpen" class="tablinks active tab_services">Services</button>
+        <button class="tablinks tab_classes">Classes</button>
+      </div>
+
+        <form id="services" class="form_services" action="./index.html" method="get" style="display:block">
+        </form>
+
+        <form id="classes" class=" tabcontent form_classes" action="./index.html" method="get" style="display:none">
+        </form>
+
+
+    </section>
+  </main>
+
+  <footer> </footer>
+  <script src="./index.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+      (function () {
+          emailjs.init({
+              publicKey: "YHdVm3DL1bRFpikFl",
+          });
+      })();
+  </script>
+</body>
+
 </html>

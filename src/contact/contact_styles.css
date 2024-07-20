@@ -1,0 +1,802 @@
+h1 {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.13em;
+  text-align: center;
+  color: #725A58;
+}
+
+h3 {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 43.2px;
+  text-align: center;
+  color: #725A58;
+  text-align: left;
+}
+
+button.tablinks {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 41.6px;
+  text-align: center;
+  color: #888888;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 41.6px;
+  text-align: center;
+  color: #725A58;
+  text-align: left;
+}
+
+h5 {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 41.6px;
+  text-align: center;
+  color: #191919;
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+
+h6 {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 31.2px;
+  color: #191919;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.serviceEachPart1 h6 {
+  font-family: "Baskervville", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+h3 + p {
+  text-align: left;
+}
+
+li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #191919;
+}
+
+input, label, option, select, textarea {
+  font-family: "Poppins", sans-serif;
+  color: #191919;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 80px;
+    line-height: 104px;
+  }
+  h3 {
+    font-size: 48px;
+    line-height: 62.4px;
+  }
+  h4 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  h3 + p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  li {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .bottomContactIcon p {
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+}
+#eventTypeLabel p {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #725A58;
+  margin: 0;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.baskervville-regular {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.baskervville-regular-italic {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.sum_container {
+  display: flex;
+  background-color: #ffffff;
+  width: 94px;
+  height: 40px;
+}
+
+input[type=number] {
+  background-color: #FAE9E7;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  padding: 0;
+  width: 34px;
+  color: #202030;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  background-color: #FAE9E7;
+  color: #535353;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.decrement {
+  width: 30px;
+  padding-left: 10px;
+}
+
+.increment {
+  width: 30px;
+  padding-right: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F8F6F4;
+  accent-color: #e8978e;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+main .title p {
+  text-align: center;
+}
+main .title .contact .contact_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .title .contact .contact_container .icon {
+  display: flex;
+  flex-direction: row;
+}
+main .tab button {
+  border: none;
+  border-bottom: 1px solid #484141;
+  cursor: pointer;
+  margin: 0;
+  padding: 0 0 5px 0;
+  width: 50%;
+  background: transparent;
+}
+main .tab button:hover {
+  color: #191919;
+  border-color: #191919;
+}
+main .tab button:active {
+  color: #191919;
+  border-color: #191919;
+}
+main .tab button.active {
+  color: #191919;
+  border-color: #191919;
+}
+main .form {
+  background: #FAE9E7;
+  padding: 40px 16px 40px 16px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 40px;
+}
+main .form .tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main .form form {
+  width: 100%;
+}
+main .form form #page_1, main .form form #page_2, main .form form #page_3 {
+  margin: 40px 0;
+}
+main .form form #page_1, main .form form #page_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+main .form form fieldset {
+  margin-bottom: 40px;
+  padding: 0;
+  border: none;
+}
+main .form form fieldset #eventTypeLabel,
+main .form form fieldset #serviceTypeLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 19px;
+}
+main .form form fieldset #eventTypeLabel label,
+main .form form fieldset #serviceTypeLabel label {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background-color: #FBFAFA;
+  width: 100%;
+  margin-bottom: 0;
+}
+main .form form fieldset #eventTypeLabel label input,
+main .form form fieldset #serviceTypeLabel label input {
+  margin: 5px 0 0 0;
+}
+main .form form fieldset #eventTypeLabel label p,
+main .form form fieldset #serviceTypeLabel label p {
+  margin: 0;
+}
+main .form form fieldset #eventDate,
+main .form form fieldset #eventTime {
+  width: 100%;
+}
+main .form form fieldset #eventDate {
+  margin-bottom: 40px;
+}
+main .form form fieldset .inputCheck {
+  display: flex;
+  flex-direction: row;
+}
+main .form form fieldset .inputCheck p {
+  margin: 0;
+  flex: 1;
+}
+main .form form fieldset input#date {
+  padding: 14px 16px;
+  border: none;
+  margin-bottom: 10px;
+}
+main .form form fieldset input#location {
+  margin-bottom: 10px;
+}
+main .form form fieldset select {
+  width: 100%;
+  height: 51px;
+  background-color: #FBFAFA;
+  padding: 12px 16px;
+  border: none;
+  margin-bottom: 10px;
+}
+main .form form fieldset select option {
+  padding: 0;
+}
+main .form form fieldset input[type=checkbox] {
+  margin-right: 14px;
+  flex-basis: 22px;
+  height: 22px;
+  border: none;
+  color: #E3B6B1;
+}
+main .form form fieldset input[type=checkbox]:hover {
+  accent-color: #E3B6B1;
+}
+main .form form fieldset input[type=checkbox]:checked {
+  accent-color: #E3B6B1;
+}
+main .form form fieldset input[type=radio] {
+  margin-right: 14px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+main .form form fieldset input[type=search],
+main .form form fieldset [type=text],
+main .form form fieldset [type=tel],
+main .form form fieldset [type=date] {
+  border: none;
+  background-color: #FBFAFA;
+  width: 100%;
+  padding: 14px 16px;
+}
+main .form form fieldset textarea {
+  border: none;
+  width: 100%;
+  height: 160px;
+  resize: none;
+  color: #B99692;
+  padding: 14px 16px;
+}
+main .form form fieldset .contactPart1 label {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+main .form form fieldset .contactPart1 label p {
+  margin: 0;
+}
+main .form form fieldset .contactPart1 input {
+  margin-bottom: 10px;
+}
+main .form form fieldset #premiumServiceGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+main .form form fieldset #premiumServiceGroup div {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+main .form form fieldset #anyoneServiceBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+main .form form fieldset #anyoneServiceBox .anyoneServiceEach {
+  background-color: #FBFAFA;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  padding: 16px 21px;
+}
+main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart1 h6 {
+  margin: 10px 0 0 0;
+}
+main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 40px;
+}
+main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 label {
+  display: flex;
+  flex-direction: row;
+}
+main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 label input {
+  margin: 3px 14px 3px 4px;
+}
+main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 label p {
+  margin: 0;
+}
+main .form form h3 {
+  margin: 0 0 12px 0;
+}
+main .form form h3 ~ p {
+  margin: 0 0 40px 0;
+}
+main .form form #p3Box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-top: 1px solid;
+  border-color: #B99692;
+}
+main .form form #p3Box h4 {
+  margin-top: 12px;
+  margin-bottom: 36px;
+}
+main .form form #p3Box ul {
+  padding-left: 15px;
+  margin: 0;
+  list-style: none;
+  list-style-type: "- ";
+}
+main .form form #p3Box ul li:nth-of-type(1n+3) {
+  display: none;
+}
+main .form form #p3Box #imgA_P3 {
+  display: none;
+}
+main .form form #p3Box #imgB_P3 {
+  width: auto;
+  height: 383px;
+  object-fit: cover;
+  display: block;
+}
+main .form form #p3Box #logoSvg {
+  display: none;
+  margin: 0 0 24px 0;
+}
+main .form form #p3Box #p3BoxBottomContact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .form form #p3Box #p3BoxBottomContact .bottomContactIcon {
+  display: flex;
+  gap: 10px;
+}
+main .form form #p3Box #p3BoxBottomContact .bottomContactIcon p {
+  margin: 0;
+  color: #725A58;
+}
+
+#btn_next,
+#btn_skip_next,
+#btn_submit,
+#btn_share {
+  background: transparent;
+  color: #725A58;
+  border: 0.5px solid #725A58;
+  cursor: pointer;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#btn_back {
+  display: flex;
+  gap: 16px;
+  background: transparent;
+  color: #725A58;
+  border: none;
+  cursor: pointer;
+  margin: 0 0 40px 0;
+  padding: 10px;
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+#btn_back p {
+  font-family: "Baskervville", serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+  }
+  body main .title {
+    width: 526px;
+  }
+  body main .title .title_n_paragraph {
+    padding: 0 26px;
+  }
+  body main .title .title_n_paragraph p {
+    color: #191919;
+    text-align: center;
+  }
+  body main .title .contact {
+    margin: 60px 0;
+  }
+  body main .title .contact .contact_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  body main .form {
+    width: 100%;
+    max-width: 768px;
+    padding: 60px 80px 60px 80px;
+  }
+  body main .form form fieldset #anyoneServiceBox .anyoneServiceEach {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 64px;
+  }
+  body main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart1 {
+    padding-right: 24px;
+    border: none;
+    border-right: 1px solid #E3B6B1;
+  }
+  body main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  body main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 label {
+    padding-top: 5px;
+  }
+  body main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 #man_makeup {
+    justify-content: right;
+    width: 267px;
+  }
+  body main .form form fieldset #premiumServiceGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: space-between;
+  }
+  body main .form form fieldset #premiumServiceGroup div {
+    width: 298px;
+  }
+  body main .form form #eventTypeLabel,
+  body main .form form #serviceTypeLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 19px;
+  }
+  body main .form form #eventTypeLabel label,
+  body main .form form #serviceTypeLabel label {
+    background-color: #FBFAFA;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  body main .form form #eventTypeLabel label p,
+  body main .form form #serviceTypeLabel label p {
+    margin: 0;
+  }
+  body main .form form #eventDateTime {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  body main .form form #eventDateTime #eventDate {
+    margin-bottom: 0;
+  }
+  body main .form form input#date,
+  body main .form form select {
+    justify-content: space-between;
+  }
+  body main .form form fieldset#contact {
+    padding-bottom: 80px;
+  }
+  body main .form form fieldset#anythingKnow {
+    padding-bottom: 80px;
+  }
+  body main .form form #p3Box {
+    display: flex;
+    gap: 40px;
+    border-left: 1px solid #B99692;
+    border-right: 1px solid #B99692;
+    border-bottom: 1px solid #B99692;
+    padding: 40px;
+  }
+  body main .form form #p3Box #imgA_P3 {
+    display: block;
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+  }
+  body main .form form #p3Box #imgB_P3 {
+    display: none;
+  }
+  body main .form form #p3Box #p3BoxServiceList {
+    display: flex;
+    justify-content: space-between;
+  }
+  body main .form form #p3Box #p3BoxServiceList ul {
+    padding: 0;
+    padding-left: 15px;
+    margin: 0;
+  }
+  body main .form form #p3Box #p3BoxServiceList ul li:nth-of-type(1n+3) {
+    display: list-item;
+  }
+  body main .form form #p3Box #p3BoxServiceList h6 {
+    margin: 0 0 10px 0;
+  }
+  body main .form form #p3Box #p3BoxServiceList #p3BoxInfoRight {
+    display: grid;
+  }
+  body main .form form #p3Box #logoSvg {
+    display: block;
+  }
+  body main .form form #p3Box #p3BoxBottomContact {
+    flex-direction: row;
+  }
+  body main .form form #p3Box #p3BoxBottomContact #bottomContactIcon_phone {
+    display: none;
+  }
+  body main div#page_1,
+  body main #page_2,
+  body main #page_3 {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+  }
+  body main #btn_next,
+  body main #btn_skip_next,
+  body main #btn_submit {
+    width: 160px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    top: 100%;
+    width: 160px;
+    height: 62px;
+  }
+  body main #btn_back {
+    width: fit-content;
+    padding: 0;
+    align-items: start;
+  }
+  body main #btn_share {
+    width: 160px;
+    height: 62px;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(calc(-100% - 40px), calc(-100% - 40px));
+  }
+}
+
+/*# sourceMappingURL=contact_styles.css.map */

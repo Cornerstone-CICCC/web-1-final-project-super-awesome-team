@@ -359,14 +359,12 @@ main .form {
   display: flex;
   flex-direction: column;
   column-gap: 40px;
+  width: 100%;
 }
 main .form .tab {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-main .form form {
-  width: 100%;
 }
 main .form form #page_1, main .form form #page_2, main .form form #page_3 {
   margin: 40px 0;
@@ -524,17 +522,18 @@ main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 40px;
+  gap: 20px;
 }
 main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 label {
   display: flex;
   flex-direction: row;
-}
-main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 label input {
-  margin: 3px 14px 3px 4px;
+  flex: 1 input;
+  flex-margin: 3px 14px 3px 4px;
+  flex-flex: 1;
 }
 main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 label p {
   margin: 0;
+  flex: 1;
 }
 main .form form h3 {
   margin: 0 0 12px 0;
@@ -657,7 +656,6 @@ main .form form #p3Box #p3BoxBottomContact .bottomContactIcon p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 64px;
   }
   body main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart1 {
     padding-right: 24px;
@@ -670,6 +668,7 @@ main .form form #p3Box #p3BoxBottomContact .bottomContactIcon p {
   }
   body main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 label {
     padding-top: 5px;
+    flex: 1;
   }
   body main .form form fieldset #anyoneServiceBox .anyoneServiceEach .serviceEachPart2 #man_makeup {
     justify-content: right;

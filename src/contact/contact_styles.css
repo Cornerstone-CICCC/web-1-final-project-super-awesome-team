@@ -377,6 +377,7 @@ main .form form #page_1, main .form form #page_2 {
   gap: 40px;
 }
 main .form form fieldset {
+  margin-bottom: 40px;
   padding: 0;
   border: none;
 }
@@ -417,6 +418,7 @@ main .form form fieldset .inputCheck {
 }
 main .form form fieldset .inputCheck p {
   margin: 0;
+  flex: 1;
 }
 main .form form fieldset input#date {
   padding: 14px 16px;
@@ -439,7 +441,7 @@ main .form form fieldset select option {
 }
 main .form form fieldset input[type=checkbox] {
   margin-right: 14px;
-  width: 22px;
+  flex-basis: 22px;
   height: 22px;
   border: none;
   color: #E3B6B1;
@@ -611,7 +613,7 @@ main .form form #p3Box #p3BoxBottomContact .bottomContactIcon p {
   color: #725A58;
   border: none;
   cursor: pointer;
-  margin: 0;
+  margin: 0 0 40px 0;
   padding: 10px;
   font-family: "Baskervville", serif;
   font-weight: 400;

@@ -99,6 +99,11 @@ weddingInput.addEventListener('click', () => {
     btnToPage2.style.display = 'block'
     btnSkipPage2.style.display = 'none'
     serviceTypeTitle.textContent = "Bridal Service"
+    groomBox.style.display ="flex"
+    bridesmaidBox.style.display ="flex"
+    flowergirlBox.style.display ="flex"
+    womanBox.style.display ="none"
+    manBox.style.display ="none"
 })
 
 partyInput.addEventListener('click', () => {
@@ -106,13 +111,18 @@ partyInput.addEventListener('click', () => {
     btnToPage2.style.display = 'block'
     btnSkipPage2.style.display = 'none'
     serviceTypeTitle.textContent = "Service"
+    groomBox.style.display ="none"
+    bridesmaidBox.style.display ="none"
+    flowergirlBox.style.display ="none"
+    womanBox.style.display ="flex"
+    manBox.style.display ="flex"
 })
 
 photoShootInput.addEventListener('click', () => {
     contactPart2.style.display = 'none'
     btnToPage2.style.display = 'none'
     btnSkipPage2.style.display = 'block'
-    p3BoxInfo.style.display="none"
+    p3BoxInfo.style.display = "none"
 
 })
 
@@ -337,7 +347,6 @@ containerPage2.append(btnBack)
 /*Bribal Service */
 const serviceType = document.createElement('fieldset')
 containerPage2.append(serviceType)
-
 const serviceTypeTitle = document.createElement('h5')
 serviceTypeTitle.textContent = "Bridal Service" /*Switch to service */
 serviceType.appendChild(serviceTypeTitle)
@@ -377,7 +386,7 @@ eventLocation.appendChild(eventLocationTitle)
 
 const LocationInput = document.createElement('input')
 LocationInput.setAttribute('type', 'search')
-LocationInput.setAttribute('name', 'lacation')
+LocationInput.setAttribute('name', 'location')
 LocationInput.setAttribute('id', 'location')
 LocationInput.setAttribute('placeholder', 'Search address')
 LocationInput.setAttribute('value', '')
@@ -464,6 +473,7 @@ anyoneService.append(anyoneServiceBox)
 const groomBox = document.createElement('div')
 groomBox.setAttribute('class', 'anyoneServiceEach')
 groomBox.setAttribute('id', 'groomBox')
+groomBox.style.display = "flex"
 anyoneServiceBox.append(groomBox)
 
 const groomNum = document.createElement('div')
@@ -490,12 +500,13 @@ groomBox.append(groomService)
 
 /**Bridesmaid*/
 const bridesmaidBox = document.createElement('div')
-bridesmaidBox.setAttribute('class','anyoneServiceEach')
-bridesmaidBox.setAttribute('id','bridesmaidBox')
+bridesmaidBox.setAttribute('class', 'anyoneServiceEach')
+bridesmaidBox.setAttribute('id', 'bridesmaidBox')
+bridesmaidBox.style.display = "flex"
 anyoneServiceBox.append(bridesmaidBox)
 
 const bridesmaidNum = document.createElement('div')
-bridesmaidNum.setAttribute('class','serviceEachPart1')
+bridesmaidNum.setAttribute('class', 'serviceEachPart1')
 bridesmaidBox.append(bridesmaidNum)
 
 const bridesmaidTitle = document.createElement('h6')
@@ -510,7 +521,7 @@ bridesmaidNumSum.innerHTML = '<div class="sum_container"><button class="decremen
 bridesmaidNum.append(bridesmaidNumSum)
 
 const bridesmaidService = document.createElement('div')
-bridesmaidService.setAttribute('class','serviceEachPart2')
+bridesmaidService.setAttribute('class', 'serviceEachPart2')
 bridesmaidService.innerHTML = '<label id="bridesmaid_makeup"><input type="checkbox" name="bridesmaid_makeup"><p>Makeup</p></label><label id="bridesmaid_hairstyle"><input type="checkbox" name="bridesmaid_hairstyle"><p>Hairstyle</p></label>'
 bridesmaidBox.append(bridesmaidService)
 
@@ -518,12 +529,13 @@ bridesmaidBox.append(bridesmaidService)
 
 /**Flower girl */
 const flowergirlBox = document.createElement('div')
-flowergirlBox.setAttribute('class','anyoneServiceEach')
-flowergirlBox.setAttribute('id','flowergirlBox')
+flowergirlBox.setAttribute('class', 'anyoneServiceEach')
+flowergirlBox.setAttribute('id', 'flowergirlBox')
+flowergirlBox.style.display = "flex"
 anyoneServiceBox.append(flowergirlBox)
 
 const flowergirlNum = document.createElement('div')
-flowergirlNum.setAttribute('class','serviceEachPart1')
+flowergirlNum.setAttribute('class', 'serviceEachPart1')
 flowergirlBox.append(flowergirlNum)
 
 const flowergirlTitle = document.createElement('h6')
@@ -538,18 +550,19 @@ flowergirlNumSum.innerHTML = '<div class="sum_container"><button class="decremen
 flowergirlNum.append(flowergirlNumSum)
 
 const flowergirlService = document.createElement('div')
-flowergirlService.setAttribute('class','serviceEachPart2')
+flowergirlService.setAttribute('class', 'serviceEachPart2')
 flowergirlService.innerHTML = '<label id="flowergirl_makeup"><input type="checkbox" name="flowergirl_makeup"><p>Makeup</p></label><label id="flowergirl_hairstyle"><input type="checkbox" name="flowergirl_hairstyle"><p>Hairstyle</p></label>'
 flowergirlBox.append(flowergirlService)
 
 /**Woman*/
 const womanBox = document.createElement('div')
-womanBox.setAttribute('class','anyoneServiceEach')
-womanBox.setAttribute('id','womanBox')
+womanBox.setAttribute('class', 'anyoneServiceEach')
+womanBox.setAttribute('id', 'womanBox')
+womanBox.style.display = "flex"
 anyoneServiceBox.append(womanBox)
 
 const womanNum = document.createElement('div')
-womanNum.setAttribute('class','serviceEachPart1')
+womanNum.setAttribute('class', 'serviceEachPart1')
 womanBox.append(womanNum)
 
 const womanTitle = document.createElement('h6')
@@ -565,18 +578,19 @@ womanNum.append(womanNumSum)
 
 
 const womanService = document.createElement('div')
-womanService.setAttribute('class','serviceEachPart2')
+womanService.setAttribute('class', 'serviceEachPart2')
 womanService.innerHTML = '<label id="woman_makeup"><input type="checkbox" name="woman_makeup"><p>Makeup</p></label><label id="woman_hairstyle"><input type="checkbox" name="woman_hairstyle"><p>Hairstyle</p></label>'
 womanBox.append(womanService)
 
 /**man*/
 const manBox = document.createElement('div')
-manBox.setAttribute('class','anyoneServiceEach')
-manBox.setAttribute('id','manBox')
+manBox.setAttribute('class', 'anyoneServiceEach')
+manBox.setAttribute('id', 'manBox')
+manBox.style.display = "flex"
 anyoneServiceBox.append(manBox)
 
 const manNum = document.createElement('div')
-manNum.setAttribute('class','serviceEachPart1')
+manNum.setAttribute('class', 'serviceEachPart1')
 manBox.append(manNum)
 
 const manTitle = document.createElement('h6')
@@ -591,7 +605,7 @@ manNumSum.innerHTML = '<div class="sum_container"><button class="decrement" oncl
 manNum.append(manNumSum)
 
 const manService = document.createElement('div')
-manService.setAttribute('class','serviceEachPart2')
+manService.setAttribute('class', 'serviceEachPart2')
 manService.innerHTML = '<label id="man_makeup"><input type="checkbox" name="man_makeup"><p>Makeup</p></label>'
 manBox.append(manService)
 
@@ -753,36 +767,36 @@ instagram.prepend(instagramSvg)
 
 /* btn-back to P1 */
 
-btnBack.addEventListener('click',() =>{
-    containerPage1.style.display= "block"
-    containerPage2.style.display="none"
-    containerPage3.style.display="none"
-    titleSection.style.display="block"
+btnBack.addEventListener('click', () => {
+    containerPage1.style.display = "block"
+    containerPage2.style.display = "none"
+    containerPage3.style.display = "none"
+    titleSection.style.display = "block"
 })
 
 /*btn-to Page2 */
-btnToPage2.addEventListener('click',() =>{
-    containerPage1.style.display="none"
-    containerPage2.style.display="block"
-    containerPage3.style.display="none"
-    titleSection.style.display="none"
+btnToPage2.addEventListener('click', () => {
+    containerPage1.style.display = "none"
+    containerPage2.style.display = "block"
+    containerPage3.style.display = "none"
+    titleSection.style.display = "none"
 })
 /*btn-skip Page2 */
-btnSkipPage2.addEventListener('click',() =>{
-    containerPage1.style.display="none"
-    containerPage2.style.display="none"
-    containerPage3.style.display="block"
-    titleSection.style.display="none"
+btnSkipPage2.addEventListener('click', () => {
+    containerPage1.style.display = "none"
+    containerPage2.style.display = "none"
+    containerPage3.style.display = "block"
+    titleSection.style.display = "none"
 })
 
-/*btn-to Page3
+/*btn-to Page3*/
 btnToPage3.addEventListener('click',() =>{
     containerPage1.style.display="none"
     containerPage2.style.display="none"
     containerPage3.style.display="block"
     titleSection.style.display="none"
     p3BoxInfo.style.display="none"
-})*/
+})
 
 /*Submit */
 form.addEventListener('submit', (e) => {
@@ -793,20 +807,64 @@ form.addEventListener('submit', (e) => {
 
     thankyouTitle.innerHTML = `Thanks ${name}.</br>we will contact with you soon!`
     thankyouP.innerHTML = `We will call ${phone} to confirm the appointment details with you.`
-    containerPage1.style.display="none"
-    containerPage2.style.display="none"
-    containerPage3.style.display="block"
-    titleSection.style.display="none"
+
 })
+
 /*Submit */
+
+function displayRadioValue() {
+    document.querySelectord("#result").innerHTML = "";
+    var ele = document.getElementsByTagName('input');
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].type = "radio") {
+
+            if (ele[i].checked)
+                document.getElementById("result").innerHTML
+                    += ele[i].name + " Value: "
+                    + ele[i].value + "<br>";
+        }
+    }
+}
+
 
 
 /*email.js*/
 function sendMail() {
-    var params = {
+
+    getServiceTypeValue = function () {
+        const checkboxInputs = document.getElementsByTag('checkbox');
+        for (var i = 0; i < checkboxInputs.length; i++) {
+            checkboxInputs[i].checked = true;
+            if (makeupInput.checked == true && hairstyleInputInput.checked == true) {
+                serviceTypeInput = makeupInput.value + "," + hairstyleInput.value
+            }
+            if (makeupInput.checked == true && hairstyleInputInput.checked == false) {
+                serviceTypeInput = makeupInput.value
+            }
+            if (makeupInput.checked == false && hairstyleInputInput.checked == true) {
+                serviceTypeInput = hairstyleInput.value
+            }
+            else{
+                serviceTypeInput = "none"
+            }
+        }
+    }
+
+    let params = {
+        eventType: getElementByname("event_type").value,
+        eventDate: getElementByname("date").value,
+        eventTime: getElementByTagName("select").value,
         name: document.getElementById("name").value,
+        contactWay: document.getElementsByName(contact_way).value,
+        phone: document.getElementsByName("phone").value,
+        whatsapp: document.getElementsByName("whatsapp").value,
+        sms: document.getElementsByName("sms").value,
         email: document.getElementById("email").value,
-        message: document.getElementById("message").value,
+        message: document.getElementByName("email").value,
+        contactTime: document.getElementByName("contact_time").value,
+        getServiceTypeValue: "",
+        serviceType: getServiceTypeValue(),
+        eventLocation: getElementByName("location")
     };
 
     const serviceID = "service_8ddcom8";

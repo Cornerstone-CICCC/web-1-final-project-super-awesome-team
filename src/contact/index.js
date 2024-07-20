@@ -61,10 +61,10 @@ weddingLabel.setAttribute('id', 'wedding')
 weddingLabel.innerHTML = "<p>Wedding<\p>"
 const weddingInput = document.createElement('input')
 weddingInput.setAttribute('type', 'radio')
+weddingInput.setAttribute('id', 'event_type')
 weddingInput.setAttribute('name', 'event_type')
 weddingInput.setAttribute('value', 'wedding')
 weddingInput.setAttribute('checked', '')
-weddingInput.setAttribute('required', '')
 weddingLabel.append(weddingInput)
 eventTypeLabel.append(weddingLabel)
 
@@ -77,7 +77,6 @@ const partyInput = document.createElement('input')
 partyInput.setAttribute('type', 'radio')
 partyInput.setAttribute('name', 'event_type')
 partyInput.setAttribute('value', 'party')
-weddingInput.setAttribute('required', '')
 partyLabel.append(partyInput)
 eventTypeLabel.append(partyLabel)
 
@@ -88,7 +87,6 @@ const photoShootInput = document.createElement('input')
 photoShootInput.setAttribute('type', 'radio')
 photoShootInput.setAttribute('name', 'event_type')
 photoShootInput.setAttribute('value', 'photoshoot')
-photoShootInput.setAttribute('required', '')
 photoShootLabel.append(photoShootInput)
 eventTypeLabel.append(photoShootLabel)
 
@@ -210,7 +208,7 @@ contact.append(contactPart1)
 
 const contactCall = document.createElement('div')
 contactCall.setAttribute('class', 'contactPart1')
-contactCall.innerHTML = '<label><input type="radio" name="contact_way" class="radio" value="Call" required><p>Call</p></label>'
+contactCall.innerHTML = '<label><input type="radio"  name="contact_way" id="contact_way" class="radio" value="Call" ><p>Call</p></label>'
 contactPart1.append(contactCall)
 
 
@@ -220,7 +218,7 @@ contactPhone.innerHTML = "<input id='phone_input' type='tel' name='phone' placeh
 contactPart1.append(contactPhone)
 
 contactCall.addEventListener('click', () => {
-    contactPhone.innerHTML = "<input id='phone_input' type='tel' name='phone' placeholder='Your mobile number' style='display:block' value='' required/>"
+    contactPhone.innerHTML = "<input id='phone_input' type='tel' name='phone' placeholder='Your mobile number' style='display:block' value='' />"
     contactWhatsappNum.innerHTML = "<input id='whatsApp_input' type='tel' name='whatsapp' placeholder='Your WhatsApp Account' style='display:none' value=''/>"
     contactSMSNum.innerHTML = "<input id='sms_input' type='tel' name='sms' placeholder='Your mobile number' style='display:none' value=''/>"
     contactMail.innerHTML = "<input id='email_input' type='text' name='email' placeholder='Your Email Address' style='display:none' value=''/>"
@@ -229,7 +227,7 @@ contactCall.addEventListener('click', () => {
 
 const contactWhatsapp = document.createElement('div')
 contactWhatsapp.setAttribute('class', 'contactPart1')
-contactWhatsapp.innerHTML = "<label><input type='radio' name='contact_way' class='radio' value='whatsapp' required><p>WhatsApp</p></label>"
+contactWhatsapp.innerHTML = "<label><input type='radio' name='contact_way'  id='contact_way' class='radio' value='whatsapp' ><p>WhatsApp</p></label>"
 contactPart1.append(contactWhatsapp)
 
 const contactWhatsappNum = document.createElement('div')
@@ -239,14 +237,14 @@ contactPart1.append(contactWhatsappNum)
 
 contactWhatsapp.addEventListener('click', () => {
     contactPhone.innerHTML = "<input id='phone_input' type='tel' name='phone' placeholder='Your mobile number' style='display:none' value=''/>"
-    contactWhatsappNum.innerHTML = "<input id='whatsApp_input' type='tel' name='whatsapp' placeholder='Your WhatsApp Account' style='display:block' value='' required/>"
+    contactWhatsappNum.innerHTML = "<input id='whatsApp_input' type='tel' name='whatsapp' placeholder='Your WhatsApp Account' style='display:block' value='' />"
     contactSMSNum.innerHTML = "<input id='sms_input' type='tel' name='sms' placeholder='Your mobile number' style='display:none' value=''/>"
     contactMail.innerHTML = "<input id='email_input' type='text' name='email' placeholder='Your Email Address' style='display:none' value=''/>"
 })
 
 const contactSMS = document.createElement('div')
 contactSMS.setAttribute('class', 'contactPart1')
-contactSMS.innerHTML = "<label><input type='radio' name='contact_way' class='radio' value='sms' required><p>SMS</p></label>"
+contactSMS.innerHTML = "<label><input type='radio' name='contact_way' id='contact_way' class='radio' value='sms' ><p>SMS</p></label>"
 contactPart1.append(contactSMS)
 
 const contactSMSNum = document.createElement('div')
@@ -257,13 +255,13 @@ contactPart1.append(contactSMSNum)
 contactSMS.addEventListener('click', () => {
     contactPhone.innerHTML = "<input id='phone_input' type='tel' name='phone' placeholder='Your mobile number' style='display:none' value=''/>"
     contactWhatsappNum.innerHTML = "<input id='whatsApp_input' type='tel' name='whatsapp' placeholder='Your WhatsApp Account' style='display:none' v/>"
-    contactSMSNum.innerHTML = "<input id='sms_input' type='tel' name='sms' placeholder='Your mobile number' style='display:block' value='' required/>"
+    contactSMSNum.innerHTML = "<input id='sms_input' type='tel' name='sms' placeholder='Your mobile number' style='display:block' value='' />"
     contactMail.innerHTML = "<input id='email_input' type='text' name='email' placeholder='Your Email Address' style='display:none' value=''/>"
 })
 
 const contactEmail = document.createElement('div')
 contactEmail.setAttribute('class', 'contactPart1')
-contactEmail.innerHTML = "<label><input type='radio' name='contact_way' class='radio' value='email' required><p>Email</p></label>"
+contactEmail.innerHTML = "<label><input type='radio' id='contact_way' name='contact_way' class='radio' value='email' ><p>Email</p></label>"
 contactPart1.append(contactEmail)
 
 const contactMail = document.createElement('div')
@@ -275,7 +273,7 @@ contactEmail.addEventListener('click', () => {
     contactPhone.innerHTML = "<input id='phone_input' type='tel' name='phone' placeholder='Your mobile number' style='display:none' value=''/>"
     contactWhatsappNum.innerHTML = "<input id='whatsApp_input' type='tel' name='whatsapp' placeholder='Your WhatsApp Account' style='display:none' value=''/>"
     contactSMSNum.innerHTML = "<input id='sms_input' type='tel' name='smsy' placeholder='Your mobile number' style='display:none' value=''/>"
-    contactMail.innerHTML = "<input id='email_input' type='text' name='email' placeholder='Your Email Address' style='display:block' value='' required/>"
+    contactMail.innerHTML = "<input id='email_input' type='text' name='email' placeholder='Your Email Address' style='display:block' value='' />"
 })
 
 const contactPart2 = document.createElement('div')
@@ -287,22 +285,22 @@ contactPart2.appendChild(contactPart2Title)
 
 const contactAllday = document.createElement('div')
 contactAllday.setAttribute('class', 'contactPart1')
-contactAllday.innerHTML = '<label><input type="radio" name="contact_time" class="radio" value="All Day" required><p>I don’t mind</p></label>'
+contactAllday.innerHTML = '<label><input type="radio" id="contact_time" name="contact_time" class="radio" value="All Day" ><p>I don’t mind</p></label>'
 contactPart2.append(contactAllday)
 
 const contactMorning = document.createElement('div')
 contactMorning.setAttribute('class', 'contactPart1')
-contactMorning.innerHTML = '<label><input type="radio" name="contact_time" class="radio" value="Morning" required><p>Morning</p></label>'
+contactMorning.innerHTML = '<label><input type="radio" id="contact_time" name="contact_time" class="radio" value="Morning" ><p>Morning</p></label>'
 contactPart2.append(contactMorning)
 
 const contactAfternoon = document.createElement('div')
 contactAfternoon.setAttribute('class', 'contactPart1')
-contactAfternoon.innerHTML = '<label><input type="radio" name="contact_time" class="radio" value="Afternoon" required><p>Afternoon</p></label>'
+contactAfternoon.innerHTML = '<label><input type="radio" id="contact_time" name="contact_time" class="radio" value="Afternoon" ><p>Afternoon</p></label>'
 contactPart2.append(contactAfternoon)
 
 const contactEvening = document.createElement('div')
 contactEvening.setAttribute('class', 'contactPart1')
-contactEvening.innerHTML = '<label><input type="radio" name="contact_time" class="radio" value="Evening" required><p>Evening</p></label>'
+contactEvening.innerHTML = '<label><input type="radio" id="contact_time" name="contact_time" class="radio" value="Evening" ><p>Evening</p></label>'
 contactPart2.append(contactEvening)
 
 
@@ -789,6 +787,7 @@ btnSkipPage2.addEventListener('click', () => {
     titleSection.style.display = "none"
 })
 
+
 /*btn-to Page3*/
 btnToPage3.addEventListener('click',() =>{
     containerPage1.style.display="none"
@@ -798,33 +797,23 @@ btnToPage3.addEventListener('click',() =>{
     p3BoxInfo.style.display="none"
 })
 
-/*Submit */
-form.addEventListener('submit', (e) => {
-    e.preventDefault()
-    const formData = new FormData(form)
-    const name = formData.get('name')
-    const phone = formData.get('phone')
+/*Input Stepper*/
+function stepper(btn) {
+    let container = btn.closest('.sum_container');
+    let myInput = container.querySelector('input[type="number"]');
+    let btn_class = btn.getAttribute("class");
+    let min = parseInt(myInput.getAttribute("min"));
+    let max = parseInt(myInput.getAttribute("max"));
+    let step = parseInt(myInput.getAttribute("step"));
+    let val = parseInt(myInput.getAttribute("value"));
+    let calcStep = (btn_class == "increment") ? step : -step;
+    let newValue = val + calcStep;
 
-    thankyouTitle.innerHTML = `Thanks ${name}.</br>we will contact with you soon!`
-    thankyouP.innerHTML = `We will call ${phone} to confirm the appointment details with you.`
-
-})
-
-/*Submit */
-
-function displayRadioValue() {
-    document.querySelectord("#result").innerHTML = "";
-    var ele = document.getElementsByTagName('input');
-    for (i = 0; i < ele.length; i++) {
-        if (ele[i].type = "radio") {
-
-            if (ele[i].checked)
-                document.getElementById("result").innerHTML
-                    += ele[i].name + " Value: "
-                    + ele[i].value + "<br>";
-        }
+    if (newValue >= min && newValue <= max) {
+        myInput.setAttribute("value", newValue);
     }
 }
+
 
 
 
@@ -832,7 +821,7 @@ function displayRadioValue() {
 function sendMail() {
 
     getServiceTypeValue = function () {
-        const checkboxInputs = document.getElementsByTag('checkbox');
+        const checkboxInputs = document.getElementsByTagName('checkbox');
         for (var i = 0; i < checkboxInputs.length; i++) {
             checkboxInputs[i].checked = true;
             if (makeupInput.checked == true && hairstyleInputInput.checked == true) {
@@ -850,21 +839,35 @@ function sendMail() {
         }
     }
 
+    function displayRadioValue() {
+        document.querySelectord("#result").innerHTML = "";
+        var ele = document.getElementsByTagName('input');
+        for (i = 0; i < ele.length; i++) {
+            if (ele[i].type = "radio") {
+
+                if (ele[i].checked)
+                    document.getElementById("result").innerHTML
+                        += ele[i].name + " Value: "
+                        + ele[i].value + "<br>";
+            }
+        }
+    }
+
     let params = {
-        eventType: getElementByname("event_type").value,
-        eventDate: getElementByname("date").value,
-        eventTime: getElementByTagName("select").value,
+        eventType: document.getElementById("event_type").value,
+        eventDate: document.getElementById("date").value,
+        eventTime: document.getElementsByTagName('select').value,
         name: document.getElementById("name").value,
-        contactWay: document.getElementsByName(contact_way).value,
-        phone: document.getElementsByName("phone").value,
-        whatsapp: document.getElementsByName("whatsapp").value,
-        sms: document.getElementsByName("sms").value,
-        email: document.getElementById("email").value,
-        message: document.getElementByName("email").value,
-        contactTime: document.getElementByName("contact_time").value,
+        contactWay: document.getElementById("contact_way").value,
+        phone: document.getElementById("phone_input").value,
+        whatsapp: document.getElementById("whatsApp_input").value,
+        sms: document.getElementById("sms_input").value,
+        email: document.getElementById("email_input").value,
+        message: document.getElementById("contact_time").value,
+        contactTime: document.getElementById("message").value,
         getServiceTypeValue: "",
         serviceType: getServiceTypeValue(),
-        eventLocation: getElementByName("location")
+        eventLocation: document.getElementById("location").value,
     };
 
     const serviceID = "service_8ddcom8";
@@ -873,33 +876,30 @@ function sendMail() {
     emailjs
         .send(serviceID, templateID, params)
         .then((res) => {
-            document.getElementById("name").value = "";
-            document.getElementById("email").value = "";
-            document.getElementById("message").value = "";
-            console.log(res);
-            alert("Your message sent successfully!!");
+            alert("Your message sent successfully!!" + res.status);
+            console.log(formData)
         })
         .catch((err) => console.log(err));
 };
 /*email.js*/
 
 
-function stepper(btn) {
-    let container = btn.closest('.sum_container');
-    let myInput = container.querySelector('input[type="number"]');
-    let btn_class = btn.getAttribute("class");
-    let min = parseInt(myInput.getAttribute("min"));
-    let max = parseInt(myInput.getAttribute("max"));
-    let step = parseInt(myInput.getAttribute("step"));
-    let val = parseInt(myInput.getAttribute("value"));
-    let calcStep = (btn_class == "increment") ? step : -step;
-    let newValue = val + calcStep;
 
-    if (newValue >= min && newValue <= max) {
-        myInput.setAttribute("value", newValue);
-    }
-}
-/*Input Stepper OK*/
 
+/*Submit */
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+    const formData = new FormData(form)
+    const name = formData.get('name')
+    const phone = formData.get('phone')
+
+    thankyouTitle.innerHTML = `Thanks ${name}.</br>we will contact with you soon!`
+    thankyouP.innerHTML = `We will call ${phone} to confirm the appointment details with you.`
+    alert("Submit Success")
+
+    sendMail()
+})
+
+/*Submit */
 
 

@@ -3,6 +3,7 @@ body > footer > .footer-container {
 }
 body > footer > .footer-container > .footer-content {
   display: flex;
+  margin-bottom: 60px;
   gap: 16px;
   flex-direction: column;
   justify-content: center;
@@ -66,6 +67,9 @@ body > footer > .footer-container > .copyright {
   }
 }
 @media (max-width: 1024px) {
+  body > footer > .footer-container > .footer-content {
+    margin-bottom: 0px;
+  }
   body > footer > .footer-container > .footer-link {
     grid-auto-flow: column;
     grid-template-rows: repeat(4, 1fr);

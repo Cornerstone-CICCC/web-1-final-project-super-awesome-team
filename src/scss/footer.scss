@@ -2,6 +2,7 @@ body > footer > .footer-container {
   margin-top: 40px;
   > .footer-content {
     display: flex;
+    margin-bottom: 60px;
     gap: 16px;
     flex-direction: column;
     justify-content: center;
@@ -72,6 +73,9 @@ body > footer > .footer-container {
   }
 
   @media (max-width: 1024px) {
+    > .footer-content {
+      margin-bottom: 0px;
+    }
     > .footer-link {
       grid-auto-flow: column;
       grid-template-rows: repeat(4, 1fr);

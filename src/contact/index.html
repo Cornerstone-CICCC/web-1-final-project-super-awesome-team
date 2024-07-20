@@ -1,73 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="./contact_styles.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./contact_styles.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
     </style>
-</head>
+  </head>
 
-<body>
-  <header> </header>
-
-  <main>
-    <section class="title">
-      <div class="title_n_paragraph">
-        <h1>CONTACT</h1>
-        <p>Get a quote and book a free consultation for your special day or our academy services</p>
-      </div>
-      <div class="contact">
-        <div class="contact_container">
-          <div class="icon icon_phone">
-            <img src="../../assets/contact/phone.svg" alt="phone">
-            <p>+1 00000000</p>
+  <body>
+    <header>
+      <nav>
+        <!-- SP nav -->
+        <div class="sp-nav">
+          <input type="checkbox" id="menu-btn-check" />
+          <label for="menu-btn-check" class="menu-btn"><span></span></label>
+          <div class="sp-logo-area">
+            <div class="sp-logo">
+              <img src="../../assets/logo.svg" alt="logo" />
+            </div>
+            <div class="sp-icon">
+              <a href="https://www.instagram.com/carlabeautycosmetics/">
+                <img src="../../assets/icons/instagram.svg" alt="instagram" />
+              </a>
+            </div>
           </div>
-          <div class="icon icon_whatsapp">
-            <img src="../../assets/contact/whatsapp.svg" alt="whatsapp">
-            <p>+1 00000000</p>
-          </div>
-          <div class="icon icon_instagram">
-            <img src="../../assets/contact/instagram.svg" alt="instagram">
-            <p>carlabeatrizs_</p>
+          <!-- SP menu -->
+          <div class="sp-menu-content">
+            <ul>
+              <li>
+                <a href="../home/index.html">Home</a>
+              </li>
+              <li>
+                <a href="../portfolio/index.html">My Work</a>
+              </li>
+              <li>
+                <a href="../services/index.html">Services</a>
+              </li>
+              <li>
+                <a href="../home/index.html">Classes</a>
+              </li>
+              <li>
+                <a href="../home/index.html">Beauty Tips</a>
+              </li>
+              <li>
+                <a href="../about/index.html">About</a>
+              </li>
+              <li>
+                <a href="../contact/index.html">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-    </section>
+        <!-- PC nav -->
+        <div class="pc-nav nav-container">
+          <!-- PC menu -->
+          <div class="nav-items pc-menu">
+            <div class="nav-item">
+              <a href="../home/index.html">Home</a>
+            </div>
 
-    <section class="form">
+            <div class="nav-item">
+              <a href="../portfolio/index.html">My Work</a>
+            </div>
+            <div class="nav-item">
+              <a href="../services/index.html">Services</a>
+            </div>
+            <div class="nav-item">
+              <a href="../home/index.html">Classes</a>
+            </div>
+          </div>
+          <div class="logo">
+            <img src="../../assets/logo.svg" alt="logo" />
+          </div>
+          <div class="nav-items">
+            <div class="nav-item">
+              <a href="../home/index.html">Beauty Tips</a>
+            </div>
+            <div class="nav-item activated">
+              <a href="../about/index.html">About</a>
+            </div>
+            <div class="nav-item">
+              <a href="../contact/index.html">Contact</a>
+            </div>
+            <div class="nav-item icon">
+              <a href="https://www.instagram.com/carlabeautycosmetics/">
+                <img src="../../assets/icons/instagram.svg" alt="instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-      <div class="tab">
-        <button  id="defaultOpen" class="tablinks active tab_services">Services</button>
-        <button class="tablinks tab_classes">Classes</button>
-      </div>
+    <main>
+      <section class="title">
+        <div class="title_n_paragraph">
+          <h1>CONTACT</h1>
+          <p>
+            Get a quote and book a free consultation for your special day or our
+            academy services
+          </p>
+        </div>
+        <div class="contact">
+          <div class="contact_container">
+            <div class="icon icon_phone">
+              <img src="../../assets/contact/phone.svg" alt="phone" />
+              <p>+1 00000000</p>
+            </div>
+            <div class="icon icon_whatsapp">
+              <img src="../../assets/contact/whatsapp.svg" alt="whatsapp" />
+              <p>+1 00000000</p>
+            </div>
+            <div class="icon icon_instagram">
+              <img src="../../assets/contact/instagram.svg" alt="instagram" />
+              <p>carlabeatrizs_</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <form id="services" class="form_services" action="./index.html" method="get" style="display:block">
-        </form>
-
-        <form id="classes" class=" tabcontent form_classes" action="./index.html" method="get" style="display:none">
-        </form>
-
-        <div id="result">
+      <section class="form">
+        <div class="tab">
+          <button id="defaultOpen" class="tablinks active tab_services">
+            Services
+          </button>
+          <button class="tablinks tab_classes">Classes</button>
         </div>
 
+        <form
+          id="services"
+          class="form_services"
+          action="./index.html"
+          method="get"
+          style="display: block"
+        ></form>
 
-    </section>
-  </main>
+        <form
+          id="classes"
+          class="tabcontent form_classes"
+          action="./index.html"
+          method="get"
+          style="display: none"
+        ></form>
 
-  <footer> </footer>
-  <script src="./index.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script type="text/javascript">
+        <div id="result"></div>
+      </section>
+    </main>
+
+    <footer></footer>
+    <script src="./index.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
       (function () {
-          emailjs.init({
-              publicKey: "YHdVm3DL1bRFpikFl",
-          });
+        emailjs.init({
+          publicKey: "YHdVm3DL1bRFpikFl",
+        });
       })();
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>

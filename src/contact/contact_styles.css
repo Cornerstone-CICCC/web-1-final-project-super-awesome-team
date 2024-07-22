@@ -626,9 +626,6 @@ main .form form #p3Box #p3BoxBottomContact .bottomContactIcon p {
 }
 
 @media screen and (min-width: 600px) {
-  body {
-    display: flex;
-  }
   body main .title {
     width: 526px;
   }

@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  h1,h2,h3,button {
+    color: #725A58;
+    font-weight: 400;
+    font-family: 'Baskervville', serif;
+  }
+  h3 {
+    line-height: 62.4px;
+    font-size: 48px;
+  }
+  .title-section {
+    height: 218px;
+    gap: 32px;
+    h1,h3 {
+      text-align: center;
+      margin: 0;
+    }
+  
+    h3 {
+      color: #E3B6B1;
+    } 
+    h1 {
+      font-size: 80px;
+      color: #725A58;
+      font-weight: 400;
+      line-height: 104px;
+      letter-spacing: 0.13em;
+    }
+  }
+  .about-section {
+    background-color: #FAE9E7;
+    padding: 108px 135px;
+    .container {
+      display: flex;
+      align-items: start;
+      justify-content: center;  
+      gap: 40px;
+      width: 1170px;
+      height: 424px;
+      top: 108px;
+      left: 135px;
+      > .about-image {
+        > img {
+          width: 351px;
+          height: 424px;
+        }
+      }
+      > .about-text {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        > h3 {
+          margin: 0;
+        }
+        button {
+          border: 0.8px solid #5E4A49;
+          width: 160px;
+          height: 62px;
+          background-color: transparent;
+          font-size: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          line-height: 1;
+        }
+      }
+    }
+  }
+  .brand {
+    h3 {
+      text-align: center;
+    }
+    .brand-icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 904.5px;
+      height: 177px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      .brand-icon {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          filter: invert(34%) sepia(0%) saturate(1487%) hue-rotate(136deg) brightness(91%) contrast(91%);
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 36px;
+    }
+    h3 {
+      font-size: 32px;
+      line-height: 1.2;
+    }
+    .title-section {
+      height: auto;
+      margin: 40px 0;
+      > h1 {
+        font-size: 33px;
+        line-height: 1;
+      }
+      > h3 {
+        font-size: 36px;
+      }
+    }
+    .about-section {
+      padding: 0;
+      > .container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        height: auto;
+        gap: 0;
+        > .about-image {
+          width: 100%;
+          > img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        > .about-text {
+          gap: 0;
+          padding: 40px 15px;
+          > p {
+            line-height: 25.6px;
+            margin-bottom: 26px;
+          }
+          > .button-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+    }
+    .brand {
+      > .brand-icons {
+        width: 90vw;
+        height: auto;
+        > .brand-icon {
+          width: 50%;
+          height: 100px;
+        }
+      }
+    }
+  }  
+}

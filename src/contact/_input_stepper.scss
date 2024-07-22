@@ -1,0 +1,38 @@
+
+.sum_container{
+    display: flex;
+    background-color: #ffffff;
+    width: 94px;
+    height: 40px;
+}
+
+
+input[type="number"]{
+    background-color: #FAE9E7;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    padding: 0;
+    width:34px;
+    color: #202030;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+button{
+    background-color: #FAE9E7;
+    color: #535353;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.decrement{
+    width: 30px;
+    padding-left: 10px;
+}
+.increment{
+    width: 30px;
+    padding-right: 10px;
+}

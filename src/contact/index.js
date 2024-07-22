@@ -794,7 +794,7 @@ btnToPage3.addEventListener('click',() =>{
     containerPage2.style.display="none"
     containerPage3.style.display="block"
     titleSection.style.display="none"
-    p3BoxInfo.style.display="none"
+    p3BoxInfo.style.display="block"
 })
 
 /*Input Stepper*/

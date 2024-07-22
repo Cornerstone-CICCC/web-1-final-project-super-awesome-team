@@ -1,0 +1,275 @@
+h1{
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: #725A58;
+}
+
+
+
+h3{
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43.2px;
+    text-align: center;
+    color: #725A58;
+    text-align: left;
+}
+
+
+button.tablinks{
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 41.6px;
+    text-align: center;
+    color: #888888;
+    text-align: center;
+}
+
+h4{
+font-family: "Baskervville", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 32px;
+line-height: 41.6px;
+text-align: center;
+color: #725A58;
+text-align: left;
+}
+
+h5{
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 41.6px;
+    text-align: center;
+    color: #191919;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+
+h6{
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31.2px;
+    color: #191919;
+    text-align: left;
+    margin:20px 0;
+}
+
+.serviceEachPart1 h6{
+    font-family: "Baskervville", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+h3+p{
+    text-align: left;
+    }
+
+
+li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #191919;
+}
+
+input,label,option,select,textarea{
+    font-family: "Poppins", sans-serif;
+    color: #191919;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+@media screen and (min-width: 600px) {
+    h1{
+        font-size: 80px;
+        line-height: 104px;
+    }
+    h3{
+        font-size: 48px;
+        line-height: 62.4px;
+    }
+    h4{
+        font-size: 40px;
+        line-height: 52px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    h3+p{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    li{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .bottomContactIcon p{
+        font-size: 16px;
+        line-height: 25.6px;
+    }
+}
+
+
+#eventTypeLabel p{
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #725A58;
+    margin:0
+}
+
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.baskervville-regular-italic {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+

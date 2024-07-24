@@ -398,7 +398,10 @@ html > body > .container > .section6 > .section6_button {
   border: solid 1px #5e4a49;
   color: #5e4a49;
 }
-html > body > .container > .section6 .modal {
+html > body > .container > .section6_mobile {
+  display: none;
+}
+html > body > .container .modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -410,28 +413,26 @@ html > body > .container > .section6 .modal {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
 }
-html > body > .container > .section6 .modal-content {
+html > body > .container .modal-content {
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
 }
-html > body > .container > .section6 .close {
+html > body > .container .close {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
-html > body > .container > .section6 .close:hover,
-html > body > .container > .section6 .close:focus {
+html > body > .container .close:hover,
+html > body > .container .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
-html > body > .container > .section6_mobile {
-  display: none;
-}
+
 @media screen and (max-width: 360px) {
   html {
     width: 100%;
@@ -863,12 +864,15 @@ html > body > .container > .section6_mobile {
     width: 100%;
     height: 100%;
   }
+  html > body > .container .modal-content {
+    background-color: transparent;
+  }
   html > body > .container #videoFrame {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 37%;
+    left: 183px;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 260px;
     height: 60%;
   }
 }
